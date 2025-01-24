@@ -1,0 +1,82 @@
+import React from 'react'
+import {Link} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.css'
+
+function NewHeader() {
+  return (
+    <header>
+      <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
+        <div className='container'>
+          <Link to='/' className='navbar-brand'>
+            <img
+              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1736254571/college_logo_hvfvpd.png'
+              height='60'
+              alt='LOGO'
+              className='d-inline-block align-text-top me-2'
+            />
+            <div className='names_of_college'>
+              <span className='college_name'>KIRANMAYI</span>
+              <span className='college_educationaL'>
+                EDUCATIONAL INSTITUTIONS
+              </span>
+              <span className='collge_name_I_D'>INTERMEDIATE & DEGREE</span>
+            </div>
+          </Link>
+          <button
+            className='navbar-toggler'
+            type='button'
+            data-bs-toggle='collapse'
+            data-bs-target='#navbarNav'
+            aria-controls='navbarNav'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
+          >
+            <span className='navbar-toggler-icon'></span>
+          </button>
+          <div className='collapse navbar-collapse' id='navbarNav'>
+            <ul className='navbar-nav ms-auto'>
+              <li className='nav-item'>
+                <Link to='/' className='nav-link'>
+                  Home
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to='/about' className='nav-link'>
+                  About
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to='/departments' className='nav-link'>
+                  Departments
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to='/gallery' className='nav-link'>
+                  Gallery
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to='/news' className='nav-link'>
+                  News
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to='/contact' className='nav-link'>
+                  Contact
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to='/admission' className='nav-link'>
+                  <button className='btn btn-primary'>GET ADMISSION</button>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  )
+}
+
+export default NewHeader

@@ -1,0 +1,121 @@
+/* Styling for College Name and Logo */
+.college_name {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+  letter-spacing: 0.4em;
+  color: coral;
+  line-height: 1;
+  font-weight: 800;
+}
+.college_educationaL {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  color: coral;
+  line-height: 0.5;
+}
+.collge_name_I_D {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  line-height: 0.5;
+}
+
+.names_of_college {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.names_of_college .college_name,
+.names_of_college .college_educationaL,
+.names_of_college .collge_name_I_D {
+  display: block;
+  line-height: 1; /* Reduce line height to make them closer */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-brand {
+    flex-direction: row; /* Keep logo and college name in a row */
+    align-items: center;
+    text-align: left; /* Align items to the left */
+  }
+
+  .navbar-toggler-icon {
+    width: 20px; /* Decrease width of the hamburger icon */
+    height: 12px; /* Decrease height of the hamburger lines */
+  }
+  .college_name {
+    font-size: 24px; /* Reduce size for smaller screens */
+    letter-spacing: 0.3em;
+    font-weight: 800;
+    color: coral;
+    margin-left: 10px; /* Add space between logo and name */
+  }
+
+  .college_educationaL {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: coral;
+    padding-right: 5px;
+  }
+
+  .collge_name_I_D {
+    font-size: 10px;
+    line-height: 0.5;
+  }
+
+  .college_logo {
+    height: 40px; /* Adjust logo size for smaller screens */
+    width: 40px;
+  }
+
+  .navbar-nav {
+    text-align: center; /* Align navbar items in the center */
+  }
+
+  .nav-item {
+    margin: 5px 0; /* Add margin between nav items */
+  }
+}
+
+/* Styling for Header and Navbar */
+header {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav-link {
+  margin: 0 10px;
+  color: #f8f9fa;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-toggler {
+  border-color: #ffc107;
+}
+
+.btn-primary {
+  background-color: #ffc107;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.btn-primary:hover {
+  background-color: #e0a800;
+  border: none;
+}

@@ -1,0 +1,19 @@
+.departments {
+    padding: 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.departments h2 {
+    color: #007bff;
+}
+
+.departments ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.departments li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
