@@ -1,9 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
+import ReactPopUp from './popup'
 
 function NewHeader() {
+  const [isPopupOpen, setIsPopupOpen] = useState(false)
+
+  const openPopup = () => {
+    setIsPopupOpen(true)
+  }
+
+  const closePopup = () => {
+    setIsPopupOpen(false)
+  }
+
   return (
     <header>
       <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
@@ -67,14 +78,15 @@ function NewHeader() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/admission' className='nav-link'>
-                  <button className='btn btn-primary'>GET ADMISSION</button>
-                </Link>
+                <button className='btn btn-primary' onClick={openPopup}>
+                  GET ADMISSION
+                </button>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+      {isPopupOpen && <ReactPopUp closePopup={closePopup} />}
     </header>
   )
 }
