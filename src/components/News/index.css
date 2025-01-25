@@ -1,32 +1,32 @@
 .news {
-    padding: 30px;
-    background-color: #f8f9fa;
+  padding: 30px;
+  background-color: #f8f9fa;
 }
 
 .news h2 {
-    text-align: center;
-    color: #007bff;
-    margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
 }
 
 .news-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .news-item {
-    border: 1px solid #ced4da;
-    padding: 20px;
-    border-radius: 4px;
-    background-color: #ffffff;
+  border: 1px solid #ced4da;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
 }
 
 .news-item h3 {
-    color: #343a40;
+  color: #343a40;
 }
 
 .news-item .date {
-    color: #6c757d;
-    font-size: 0.9rem;
+  color: #6c757d;
+  font-size: 0.9rem;
 }

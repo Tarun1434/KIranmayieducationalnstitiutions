@@ -4,6 +4,7 @@ import Header from '../Header'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Carousel} from 'react-bootstrap'
 import Marquee from 'react-smooth-marquee'
+import 'animate.css/animate.min.css'
 
 function Home() {
   return (
@@ -18,18 +19,15 @@ function Home() {
           </span>
         </Marquee>
       </div>
-
       <div className='row align-items-center g-4'>
-        {/* Mission & Vision Section */}
-
         {/* Carousel Section */}
         <div className='col-12'>
           <div className='border border-secondary rounded overflow-hidden shadow'>
             <Carousel
-              interval={1000}
+              interval={3000}
               controls={false}
               indicators={false}
-              pause={false}
+              pause={true}
             >
               <Carousel.Item>
                 <img
@@ -38,12 +36,21 @@ function Home() {
                   alt='Slide 1'
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item className=''>
                 <img
                   className='d-block w-100'
                   src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737631716/kinamyi_image_clvgdt.jpg'
                   alt='Slide 2'
                 />
+                <div className='carousel_text'>
+                  <h3 className='carosel_head animate__headShake'>
+                    Welcome To <br /> KIRANMAYI DEGREE COLLEGE
+                  </h3>
+
+                  <h5 className='carosel_para animate__heartBeat'>
+                    INTERMEDIATE & DEGREE
+                  </h5>
+                </div>
               </Carousel.Item>
               <Carousel.Item>
                 <img
@@ -56,7 +63,42 @@ function Home() {
           </div>
         </div>
       </div>
-
+      {/* infrastuctre*/}
+      <div className='infrastuctre '>
+        <div className='d-flex flex-column flex-md-row justify-content-center '>
+          <div className='simlarcards'>
+            <img
+              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737788718/university-robotics-lecture-black-teacher-explain-engineering-to-students-she-uses_u0rmji.jpg'
+              className='infa_img'
+              alt='infrastructure'
+            />
+            <div className='text_content_infra'>
+              <h1 className='heading_infra'>Infrastructure</h1>
+            </div>
+          </div>
+          <div className='simlarcards'>
+            <img
+              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737788875/technology-in-education_u0qi6t.jpg'
+              className='infa_img'
+              alt='infrastructure'
+            />
+            <div className='text_content_infra'>
+              <h1 className='heading_infra'>Qualified Faculty</h1>
+            </div>
+          </div>
+          <div className='simlarcards'>
+            <img
+              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737788718/teacher-explaining-science-concept-class_768772-1200_pufx0j.jpg'
+              className='infa_img'
+              alt='infrastructure'
+            />
+            <div className='text_content_infra'>
+              <h1 className='heading_infra'>100% Learning</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Mission and vison */}
       <div className='mission_vison d-flex flex-column text-white'>
         <h1 className='heading_vison'>VISION & MISSION</h1>
         <div className='misonvisonconatiner d-flex flex-column flex-md-row justify-content-center '>

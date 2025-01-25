@@ -1,3 +1,58 @@
+.heading_infra {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+}
+.carosel_para {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  color: #ff9913;
+}
+.carosel_head{
+  color: #ED9121;
+  font-weight: bold;
+}
+.infrastuctre {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  margin-top: 18px;
+  background-color: azure;
+}
+
+.simlarcards {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+}
+
+.infa_img {
+  height: 35vh;
+  width: 25vw;
+  border-radius: 15px;
+  object-fit: cover;
+  margin: 5px;
+}
+.carosel_para {
+  font-family: 'Impact', fantasy;
+  font-size: 80px;
+}
+.text_content_infra,
+.carousel_text {
+  position: absolute;
+
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
 .marqueetag {
   background-color: crimson;
   color: white;
@@ -50,8 +105,8 @@
     font-size: 12px;
   }
   .sec {
-  width: auto;
-}
+    width: auto;
+  }
   .paragraph {
     padding-left: 0px;
   }
@@ -59,7 +114,26 @@
     margin-top: 85px;
   }
   .misvis {
-  height: 24vh;
-  width: 400px;
-}
+    height: 24vh;
+    width: 400px;
+  }
+  .simlarcards {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+  }
+  .infa_img {
+    height: 25vh;
+    width: 85vw;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 5px;
+  }
+  .carosel_para {
+    animation-duration: 4s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
 }
