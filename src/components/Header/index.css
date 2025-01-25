@@ -1,4 +1,11 @@
 /* Styling for College Name and Logo */
+.navbar{
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  top: 0;
+}
+
 .college_name {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 35px;
@@ -26,7 +33,6 @@
   width: auto;
   align-items: center;
   justify-content: center;
-  
 }
 
 .names_of_college .college_name,

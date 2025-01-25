@@ -3,9 +3,10 @@
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-   white-space: nowrap;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-top: 100px;
 }
 
 /* Carousel Images */
@@ -14,8 +15,51 @@
   object-fit: cover;
 }
 
+.mission_vison {
+  align-items: center;
+  background-color: 0011DE;
+  margin: 50px 0px 50px 0px;
+  padding: 20px;
+  background-color: #0011de;
+}
+.paragraph {
+  padding-left: 50px;
+}
+.misvis {
+  height: 30vh;
+  width: 300px;
+}
+.sec {
+  width: 35vw;
+}
+.heading_vison {
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.missionheading {
+  font-size: 20px;
+  color: greenyellow;
+}
+
 @media (max-width: 768px) {
   .carousel-item img {
     height: 300px;
   }
+  .missionparagraph {
+    font-size: 12px;
+  }
+  .sec {
+  width: auto;
+}
+  .paragraph {
+    padding-left: 0px;
+  }
+  .marqueetag {
+    margin-top: 85px;
+  }
+  .misvis {
+  height: 24vh;
+  width: 400px;
+}
 }
