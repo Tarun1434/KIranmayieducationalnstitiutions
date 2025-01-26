@@ -45,7 +45,7 @@ const ReactPopUp = ({closePopup}) => {
         background: 'rgba(0, 0, 0, 0.5)', // Dim the background when popup is active
       }}
     >
-      <div className="formm">
+      <div className='formm'>
         <h3 className='text-center'>React Admission Form</h3>
         <form onSubmit={handleSubmit}>
           <div className='mb-5'>

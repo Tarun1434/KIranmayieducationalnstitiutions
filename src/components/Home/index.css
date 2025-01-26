@@ -1,15 +1,36 @@
+.card_body {
+  background-color: coral;
+}
+.card-text {
+  padding: 10px;
+  font-weight: bold;
+}
+.card-img-top {
+  height: 30vh;
+  width: 30vw;
+}
+.card_ss{
+  display:;
+}
+.card {
+  margin: 10px;
+}
+
 .heading_infra {
   font-size: 50px;
   font-weight: 800;
   color: white;
+}
+.img_carosuel {
+  animation-duration: 1s;
 }
 .carosel_para {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   color: #ff9913;
 }
-.carosel_head{
-  color: #ED9121;
+.carosel_head {
+  color: #ed9121;
   font-weight: bold;
 }
 .infrastuctre {

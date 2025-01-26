@@ -31,7 +31,7 @@ function Home() {
             >
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100 animate__flipInY img_carosuel'
                   src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737631715/kira2_w9kupm.jpg'
                   alt='Slide 1'
                 />
@@ -147,6 +147,50 @@ function Home() {
                 <li>Inculcating research culture among Staffs & Students.</li>
                 <li>Making students socially responsible citizens.</li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Courses Offered*/}
+
+      <div className='courses_offered'>
+        <div className='for_intermediate'>
+          <h1 className='InterMeduiate'>Intermediate</h1>
+          <div className='card_ss d-flex flex-column flex-md-row'>
+            <div className='card'>
+              <img
+                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737897280/33E486F5F3B7E76C95CC9DC962D1AB7D_uwaka5.jpg'
+                className='card-img-top'
+                alt='...'
+              />
+              <div className='card_body text-black'>
+                <p className='card-text'>"M.P.C" (MATHS ,PHYSICS ,CHEMISTRY)</p>
+              </div>
+            </div>
+            <div className='card'>
+              <img
+                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737897306/this-is-what-we-are-testing-today-biology-lesson-science-experiments-in-bilogy-laboratory-little-girls-in-school-lab-biology-education-little-scientist-work-with-microscope-chemistry-research-2B8M3YN_lujeup.jpg'
+                className='card-img-top'
+                alt='...'
+              />
+              <div className='card_body text-black'>
+                <p className='card-text'>
+                  "Bi.P.C" (BIOLOGY ,PHYSICS ,CHEMISTRY)
+                </p>
+              </div>
+            </div>
+            <div className='card'>
+              <img
+                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737898660/stock-chart-rising-upward_u2vasf.jpg'
+                className='card-img-top'
+                alt='...'
+              />
+              <div className='card_body text-black'>
+                <p className='card-text'>
+                  "H.E.C" (HISTORY, ECONOMICS, CIVICS)
+                </p>
+              </div>
             </div>
           </div>
         </div>
