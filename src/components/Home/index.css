@@ -1,16 +1,25 @@
+.InterMeduiate {
+  font-family: monospace;
+  font-weight: bold;
+  padding: 10px;
+  color: indigo;
+  text-decoration: underline;
+}
+
 .card_body {
   background-color: coral;
 }
 .card-text {
-  padding: 10px;
   font-weight: bold;
+  font-size: 20px;
 }
 .card-img-top {
-  height: 30vh;
+  height: 300px;
   width: 30vw;
 }
-.card_ss{
-  display:;
+.card_ss {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .card {
   margin: 10px;
@@ -87,7 +96,7 @@
 
 /* Carousel Images */
 .carousel-item img {
-  height: 450px;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -156,5 +165,9 @@
     animation-duration: 4s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+  }
+  .card-img-top {
+    height: 200px;
+    width: 17vw;
   }
 }

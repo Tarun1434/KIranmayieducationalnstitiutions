@@ -39,7 +39,7 @@
 .names_of_college .college_educationaL,
 .names_of_college .collge_name_I_D {
   display: block;
-  line-height: 1; /* Reduce line height to make them closer */
+  line-height: 1; 
 }
 
 /* Responsive Styles */
@@ -86,6 +86,16 @@
   .nav-item {
     margin: 5px 0; /* Add margin between nav items */
   }
+
+
+    .navbar-collapse {
+    display: none; /* Prevent interference with Bootstrap's JavaScript behavior */
+  }
+
+  .navbar-collapse.show {
+    display: block; /* Ensure correct display when toggled */
+  }
+
 }
 
 /* Styling for Header and Navbar */

@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 import ReactPopUp from './popup'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 function NewHeader() {
   const [isPopupOpen, setIsPopupOpen] = useState(false)
@@ -78,9 +79,14 @@ function NewHeader() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <button className='btn btn-primary' onClick={openPopup}>
+                <p
+                  className='btn btn-primary'
+                  data-bs-toggle='collapse'
+                  data-bs-target='#navbarNav'
+                  onClick={openPopup}
+                >
                   GET ADMISSION
-                </button>
+                </p>
               </li>
             </ul>
           </div>

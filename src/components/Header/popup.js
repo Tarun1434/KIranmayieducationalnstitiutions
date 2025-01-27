@@ -37,7 +37,7 @@ const ReactPopUp = ({closePopup}) => {
         maxWidth: '500px', // Set the max width of the popup
         width: '80%', // Width as a percentage of the screen
         padding: '20px',
-        background: '#fff',
+        background: '#FDFDD2',
         borderRadius: '8px',
         boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
       }}

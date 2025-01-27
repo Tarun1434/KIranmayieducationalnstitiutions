@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Carousel} from 'react-bootstrap'
 import Marquee from 'react-smooth-marquee'
 import 'animate.css/animate.min.css'
+import Footer from '../Footer'
 
 function Home() {
   return (
@@ -24,7 +25,7 @@ function Home() {
         <div className='col-12'>
           <div className='border border-secondary rounded overflow-hidden shadow'>
             <Carousel
-              interval={3000}
+              interval={2000}
               controls={false}
               indicators={false}
               pause={true}
@@ -54,7 +55,7 @@ function Home() {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100 animate__fadeIn img_carosuel'
                   src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737631913/Boost-Your-Career-with-a-Bachelors-Degree.FNU_-scaled-1.jpg_uh4cxw.webp'
                   alt='Slide 3'
                 />
@@ -154,9 +155,9 @@ function Home() {
 
       {/* Courses Offered*/}
 
-      <div className='courses_offered'>
+      <div className='courses_offered  d-flex  flex-column justify-content-center align-items-center'>
         <div className='for_intermediate'>
-          <h1 className='InterMeduiate'>Intermediate</h1>
+          <h1 className='InterMeduiate'>Intermediate </h1>
           <div className='card_ss d-flex flex-column flex-md-row'>
             <div className='card'>
               <img
@@ -194,7 +195,71 @@ function Home() {
             </div>
           </div>
         </div>
+
+        <div className='for_Degree d-flex  flex-column justify-content-center align-items-center'>
+          <h1 className='InterMeduiate'>Degree </h1>
+          <div className='card_ss d-flex flex-column flex-md-row'>
+            <div className='card'>
+              <img
+                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737959696/seidenberg-article-hero-computer-science-degree_gi5ubo.jpg'
+                className='card-img-top'
+                alt='...'
+              />
+              <div className='card_body text-black text-center'>
+                <p className='card-text'>B.Sc - MPCs</p>
+                <span className='card-text'>(Maths, Phyics, Computers)</span>
+              </div>
+            </div>
+            <div className='card'>
+              <img
+                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737959768/indian-school-chemistry-lab-research-students-working-class-together-KX38BN_e3k4rk.jpg'
+                className='card-img-top'
+                alt='...'
+              />
+              <div className='card_body text-black text-center'>
+                <p className='card-text'>B.Sc - MPC</p>
+                <span className='card-text'>(Maths, Phyics, Chemistry)</span>
+              </div>
+            </div>
+            <div className='card'>
+              <img
+                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737959740/asian-college-student-working-on-botany_cfur7j.jpg'
+                className='card-img-top'
+                alt='...'
+              />
+              <div className='card_body text-black text-center'>
+                <p className='card-text'>B.Sc - CBZ </p>
+                <span className='card-text'>(Chemistry, Botany,Zoology)</span>
+              </div>
+            </div>
+
+            <div className='card'>
+              <img
+                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737960807/Rectangle-1783_lxz3ve.png'
+                className='card-img-top'
+                alt='...'
+              />
+
+              <div className='card_body text-black text-center'>
+                <p className='card-text'>B.Com </p>
+                <span className='card-text'> Computers</span>
+              </div>
+            </div>
+            <div className='card'>
+              <img
+                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737961005/graduates-in-mortar-boards-with-diplomas-RDM3AA_auklqc.jpg'
+                className='card-img-top'
+                alt='...'
+              />
+              <div className='card_body text-black text-center'>
+                <p className='card-text'>BA </p>
+                <p className='card-text'>Political Science</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <Footer />
     </>
   )
 }
