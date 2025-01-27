@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Carousel} from 'react-bootstrap'
 import Marquee from 'react-smooth-marquee'
 import 'animate.css/animate.min.css'
-import Footer from '../Footer'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 function Home() {
   return (
@@ -259,7 +259,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   )
 }
