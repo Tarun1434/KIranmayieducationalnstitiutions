@@ -6,6 +6,7 @@ import {Carousel} from 'react-bootstrap'
 import Marquee from 'react-smooth-marquee'
 import 'animate.css/animate.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
+import Footer from '../Footer'
 
 function Home() {
   return (
@@ -259,6 +260,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 }
