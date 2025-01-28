@@ -1,0 +1,118 @@
+/* index.css */
+.Footer_container {
+  display: block;
+  padding: 2rem;
+  background-color: #212529; /* Dark background */
+  color: #f8f9fa; /* Light text */
+}
+
+/* Ensure sections are stacked on smaller devices */
+.about_section,
+.usefulLinks_section,
+.infrastrucuture_section {
+  margin-bottom: 1.5rem; /* Reduced margin between sections */
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .Footer_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about_section,
+  .usefulLinks_section,
+  .infrastrucuture_section,
+  .Get_in_touch {
+    flex: 1;
+    margin: 0 1rem;
+  }
+}
+
+/* Section Titles */
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #f8f9fa;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Links Styling */
+a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-size: 1rem;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ffc107; /* Highlight color on hover */
+}
+
+/* List Styling */
+.list_items {
+  list-style: none;
+  padding: 0;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.list-item svg {
+  margin-right: 0.5rem;
+  color: #ffc107; /* Icon color */
+}
+
+/* Get in Touch Section */
+.Get_in_touch div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.Get_in_touch svg {
+  margin-right: 0.5rem;
+  color: #ffc107; /* Icon color */
+  font-size: 1.2rem;
+}
+.Get_in_touch span {
+  font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+  border-top: 1px solid #495057;
+}
+
+/* General Spacing */
+.Footer_container div {
+  padding: 1rem 0;
+}
+
+/* Bootstrap Integration */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 1;
+  padding: 1rem;
+}
+.footers_bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #222;
+  border-top: 1px solid #e0a74b;
+}
+.footer_para {
+  color: #e0a74b;
+  padding: 10px;
+}

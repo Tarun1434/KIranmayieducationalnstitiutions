@@ -1,55 +1,116 @@
 import './index.css'
+import {BsChevronRight} from 'react-icons/bs'
+import {IoMail} from 'react-icons/io5'
+import {IoCall} from 'react-icons/io5'
+import {FaHouse} from 'react-icons/fa6'
 
 function Footer() {
   return (
-    <Footer>
+    <footer>
       <div className='Footer_container'>
-         <div className="about_section">
-           <h3>About Us</h3>
-         <p>Gowtham Degree Collegewas founded by Shri N. Chowdary Babu 
-         garu Father of Residential Colleges, a renowned Academician
-          in 2003 at Educational hub Vijayawada. Since its inception, 
-          it has been shaping the bright future of the students with 
-          various achievements.</p>
-          <a href="http://flames.ccbp.tech"> Read more...</a>
-         </div>
-         <div className="usefulLinks_section">
-             <ul className="list_items">
-                <li className="list-item">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-                      </svg>
-                      <li>Home</li>
-                </li>
-                  <li className="list-item">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-                      </svg>
-                      <li>Home</li>
-                </li>
-                  <li className="list-item">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-                      </svg>
-                      <li>About</li>
-                </li>
-                  <li className="list-item">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-                      </svg>
-                      <li>Facilities</li>
-                </li>
-                  <li className="list-item">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-                      </svg>
-                      <li>Courses Offered</li>
-                </li>
-             </ul>
-         </div>
+        <div className='about_section'>
+          <h3>About Us</h3>
+          <p>
+            Kiranmayi Degree College was founded by Shri N. Tirupathi Rao garu, 
+            a distinguished academician and the pioneer of residential colleges, 
+            in 2001 at the educational hub of Pathapatnam. Since its inception, 
+            it has been dedicated to shaping the bright futures of its students 
+            with numerous achievements and accolades.
+          </p>
+          <a href='http://flames.ccbp.tech'> Read more...</a>
+        </div>
+        <div className='usefulLinks_section'>
+          <ul className='list_items'>
+            <li className='list-item'>
+              <BsChevronRight />
+              <a href='http://flames.ccbp.tech'>
+                <span>Home</span>
+              </a>
+            </li>
+            <li className='list-item'>
+              <BsChevronRight />
+              <a href='http://flames.ccbp.tech'>
+                <span>About</span>
+              </a>
+            </li>
+            <li className='list-item'>
+              <BsChevronRight />
+              <a href='http://flames.ccbp.tech'>
+                <span>Facilities</span>
+              </a>
+            </li>
+            <li className='list-item'>
+              <BsChevronRight />
+              <a href='http://flames.ccbp.tech'>
+                <span> Founders Message</span>
+              </a>
+            </li>
+            <li className='list-item'>
+              <BsChevronRight />
+              <a href='http://flames.ccbp.tech'>
+                <span>Courses offered</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className='infrastrucuture_section'>
+          <ul className='list_items'>
+            <li className='list-item'>
+              <BsChevronRight />
+              <a href='http://flames.ccbp.tech'>
+                <span>Library</span>
+              </a>
+            </li>
+            <li className='list-item'>
+              <BsChevronRight />
+              <a href='http://flames.ccbp.tech'>
+                <span>Chenmical Lab</span>
+              </a>
+            </li>
+            <li className='list-item'>
+              <BsChevronRight />
+              <a href='http://flames.ccbp.tech'>
+                <span>Science Lab</span>
+              </a>
+            </li>
+            <li className='list-item'>
+              <BsChevronRight />
+              <a href='http://flames.ccbp.tech'>
+                <span> Cmputer Lab</span>
+              </a>
+            </li>
+            <li className='list-item'>
+              <BsChevronRight />
+              <a href='http://flames.ccbp.tech'>
+                <span>Seminar Hall</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className='Get_in_touch'>
+          <div>
+            <FaHouse />
+            <span>
+              Kiranmayi Degree College, Pathapatnam - 532213, Srikakulam District, Andhra Pradesh, India
+            </span>
+          </div>
+          <div>
+            <IoCall />
+            <span>+91 99124 25999, 91214 25999, 9121693459</span>
+          </div>
+          <div>
+            <IoMail />
+            <span>kiranmayidegreecollege@gmail.com</span>
+          </div>
+        </div>
       </div>
-    
-    </Footer>
+      <div className='footers_bottom'>
+        <p className='footer_para'>
+          Copyright © Kiranmayi Degree College 2021. All Rights Reserved |
+          Designed by <a href='http://flames.ccbp.tech'> Tarun Potnuru</a>
+        </p>
+      </div>
+    </footer>
   )
 }
 
