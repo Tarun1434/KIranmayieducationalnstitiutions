@@ -10,7 +10,7 @@ function About() {
       <Marqueetag />
       <div className='about_section_'>
         <div className='ab d-flex align-items-center justify-content-center'>
-          <div className='about d-flex flex-row justify-content-center'>
+          <div className='about d-flex flex-column  flex-md-row justify-content-center'>
             <div className='about_section d-flex flex-column'>
               <h2 className='about_heading'>KIRANMAYI DEGREE COLLEGE</h2>
               <p className='para_about'>
@@ -30,15 +30,20 @@ function About() {
             />
           </div>
         </div>
+
+        <div className='container text-center mt-4'>
+          <hr id='five' />
+        </div>
+
         <div className='ab d-flex align-items-center justify-content-center'>
-          <div className='about d-flex flex-row justify-content-center'>
+          <div className='about flex-column flex-md-row justify-content-center'>
             <img
               className='d-block aboutclg'
               src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737631716/kinamyi_image_clvgdt.jpg'
               alt='about college'
             />
             <div className='about_section d-flex flex-column'>
-              <h2 className='about_heading'>Founders Messsgae</h2>
+              <h2 className='about_heading'>FOUNDER's MESSEAGE</h2>
               <p className='para_about'>
                 {' '}
                 Kiranmayi Degree College was founded by Shri N. Tirupathi Rao

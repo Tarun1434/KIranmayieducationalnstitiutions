@@ -1,19 +1,99 @@
 .departments {
-    padding: 20px;
-    background-color: #e9ecef;
-    text-align: center;
+  padding: 20px;
+  background-color: #e9ecef;
+  text-align: center;
+  background-image: url('https://res.cloudinary.com/dsnjnciud/image/upload/v1738139609/aju9bqk7jrz7hlv0be1d.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 .departments h2 {
-    color: #007bff;
+  color: #007bff;
 }
 
 .departments ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .departments li {
-    font-size: 1.2rem;
-    margin: 10px 0;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+#five {
+  border: none;
+  border-top: 3px solid black;
+  width: 75%;
+  margin: 20px auto;
+}
+/* General Card Styling */
+.facility-card {
+  flex: 1;
+  max-width: 320px;
+  min-width: 260px;
+  margin: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Adjust Image Size */
+.facility-img {
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Card Content Styling */
+.facility-body {
+  background-color: coral;
+  padding: 12px;
+  text-align: center;
+}
+
+.facility-text {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Flexbox Wrapping for Better Responsiveness */
+.facilities-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .facility-card {
+    width: 90%;
+    max-width: 380px;
+  }
+
+  .facility-img {
+    height: 300px;
+  }
+
+  .facility-text {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .facility-card {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .facility-img {
+    height: 320px;
+  }
+
+  .facility-text {
+    font-size: 16px;
+  }
 }

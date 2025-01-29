@@ -1,44 +1,106 @@
+/* About Section Styling */
 .about_section_ {
   background-image: url('https://res.cloudinary.com/dsnjnciud/image/upload/v1738139609/aju9bqk7jrz7hlv0be1d.jpg');
   background-size: cover;
-  width: 100vw;
-}
-.about {
-  padding: 30px;
-  width: 70vw;
-}
-.aboutclg {
-  height: 35vh;
-  width: 25vw;
-  border: 2px solid black;
-  border-radius: 8px;
-}
-.about_heading {
-  color: navy;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: 'Roboto';
-}
-.about_ {
-  color: brown;
-}
-.para_about {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 50px 0;
 }
 
-@media (max-width: 768px) {
+/* About Container */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  max-width: 1200px;
+}
+
+/* About Section Text */
+.about_section {
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* About Heading */
+.about_heading {
+  color: navy;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* About Paragraph */
+.para_about {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Image Styling */
+.aboutclg {
+  height: auto;
+  width: 350px;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 3px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Horizontal Line */
+#five {
+  border: none;
+  border-top: 3px solid black;
+  width: 75%;
+  margin: 30px auto;
+}
+
+/* Bootstrap Enhancements */
+@media (max-width: 1024px) {
   .about {
-    width: 100vw;
+    padding: 20px;
+  }
+  .about_section {
+    max-width: 100%;
+    text-align: center;
   }
   .para_about {
     font-size: 15px;
   }
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
   .about_heading {
-    font-size: 25px;
+    font-size: 24px;
+  }
+  .para_about {
+    font-size: 14px;
   }
   .aboutclg {
-    height: 35vh;
-    width: auto;
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .about_heading {
+    font-size: 22px;
+  }
+  .para_about {
+    font-size: 13px;
+  }
+  .aboutclg {
+    width: 100%;
   }
 }
