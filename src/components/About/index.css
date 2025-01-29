@@ -1,16 +1,30 @@
+.about_section_ {
+  background-image: url('https://res.cloudinary.com/dsnjnciud/image/upload/v1738139609/aju9bqk7jrz7hlv0be1d.jpg');
+  background-size: cover;
+  width: 100vw;
+}
 .about {
   padding: 30px;
-  width: 80vw;
+  width: 70vw;
 }
 .aboutclg {
   height: 35vh;
   width: 25vw;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.about_heading {
+  color: navy;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
 }
 .about_ {
   color: brown;
 }
 .para_about {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
 }
 
 @media (max-width: 768px) {

@@ -1,25 +1,18 @@
 import React from 'react'
 import './index.css'
 import Header from '../Header'
+import Marqueetag from '../Marqueetag'
+import Footer from '../Footer'
+import {CourseOffered} from '../Home'
 function Departments() {
-  const departments = [
-    'Computer Science',
-    'Mechanical Engineering',
-    'Civil Engineering',
-    'Electronics',
-  ]
-
   return (
     <>
       <Header />
+      <Marqueetag />
       <div className='departments'>
-        <h2>Our Departments</h2>
-        <ul>
-          {departments.map((dept, index) => (
-            <li key={index}>{dept}</li>
-          ))}
-        </ul>
+        <CourseOffered />
       </div>
+      <Footer />
     </>
   )
 }
