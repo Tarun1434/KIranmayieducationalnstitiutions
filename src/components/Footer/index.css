@@ -12,6 +12,9 @@
 .infrastrucuture_section {
   margin-bottom: 1.5rem; /* Reduced margin between sections */
 }
+.heading_footer {
+  color: #ffc107;
+}
 
 /* Responsive adjustments */
 @media (min-width: 768px) {

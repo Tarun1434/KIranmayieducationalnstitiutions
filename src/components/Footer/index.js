@@ -1,4 +1,5 @@
 import './index.css'
+import {NavLink} from 'react-router-dom'
 import {BsChevronRight} from 'react-icons/bs'
 import {IoMail} from 'react-icons/io5'
 import {IoCall} from 'react-icons/io5'
@@ -9,29 +10,32 @@ function Footer() {
     <footer>
       <div className='Footer_container'>
         <div className='about_section'>
-          <h3>About Us</h3>
+          <h3 className='heading_footer'>About Us</h3>
           <p>
-            Kiranmayi Degree College was founded by Shri N. Tirupathi Rao garu, 
-            a distinguished academician and the pioneer of residential colleges, 
-            in 2001 at the educational hub of Pathapatnam. Since its inception, 
-            it has been dedicated to shaping the bright futures of its students 
+            Kiranmayi Degree College was founded by Shri N. Tirupathi Rao garu,
+            a distinguished academician and the pioneer of residential colleges,
+            in 2001 at the educational hub of Pathapatnam. Since its inception,
+            it has been dedicated to shaping the bright futures of its students
             with numerous achievements and accolades.
           </p>
-          <a href='http://flames.ccbp.tech'> Read more...</a>
+          <NavLink to='/about'>Read more...</NavLink>
         </div>
         <div className='usefulLinks_section'>
+          <h3 className='heading_footer'>Useful Links</h3>
           <ul className='list_items'>
             <li className='list-item'>
               <BsChevronRight />
-              <a href='http://flames.ccbp.tech'>
+
+              <NavLink to='/'>
                 <span>Home</span>
-              </a>
+              </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <a href='http://flames.ccbp.tech'>
+              <NavLink to='/about'>
+                {' '}
                 <span>About</span>
-              </a>
+              </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
@@ -54,6 +58,7 @@ function Footer() {
           </ul>
         </div>
         <div className='infrastrucuture_section'>
+          <h3 className='heading_footer'>Infrastrucutre</h3>
           <ul className='list_items'>
             <li className='list-item'>
               <BsChevronRight />
@@ -88,10 +93,12 @@ function Footer() {
           </ul>
         </div>
         <div className='Get_in_touch'>
+          <h3 className='heading_footer'>Get in Touch</h3>
           <div>
-            <FaHouse />
+            <FaHouse size={35} />
             <span>
-              Kiranmayi Degree College, Pathapatnam - 532213, Srikakulam District, Andhra Pradesh, India
+              Kiranmayi Degree College, Pathapatnam - 532213, Srikakulam
+              District, Andhra Pradesh, India
             </span>
           </div>
           <div>

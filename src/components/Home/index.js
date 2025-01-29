@@ -3,24 +3,16 @@ import './index.css'
 import Header from '../Header'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Carousel} from 'react-bootstrap'
-import Marquee from 'react-smooth-marquee'
 import 'animate.css/animate.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import Footer from '../Footer'
+import Marqueetag from '../Marqueetag'
 
 function Home() {
   return (
     <>
       <Header />
-      <div className='marqueetag py-2'>
-        <Marquee speed={1}>
-          <span>
-            🌟 Welcome to Our College Website! 🌟 Admission Open for 2025 Batch!
-            &nbsp;|&nbsp; 🌟 Welcome to the KIRANMAYI EDUCATION INSTITUTE
-            INTERMEDIATE & DEGREE 🌟 &nbsp;|&nbsp; 📚 Learn and Grow with Us 📚
-          </span>
-        </Marquee>
-      </div>
+      <Marqueetag />
       <div className='row align-items-center g-4'>
         {/* Carousel Section */}
         <div className='col-12'>

@@ -1,14 +1,30 @@
 .about {
   padding: 30px;
-  background-color: #ffffff;
+  width: 80vw;
+}
+.aboutclg {
+  height: 35vh;
+  width: 25vw;
+}
+.about_ {
+  color: brown;
+}
+.para_about {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.about h2 {
-  text-align: center;
-  color: #007bff;
-}
-
-.about p {
-  font-size: 1.2rem;
-  line-height: 1.6;
+@media (max-width: 768px) {
+  .about {
+    width: 100vw;
+  }
+  .para_about {
+    font-size: 15px;
+  }
+  .about_heading {
+    font-size: 25px;
+  }
+  .aboutclg {
+    height: 35vh;
+    width: auto;
+  }
 }
