@@ -6,18 +6,18 @@ import './index.css'
 const ReactPopUp = ({closePopup}) => {
   const [formData, setFormData] = useState({
     name: '',
-    school: '',
     phoneNumber: '',
+    address: '',
+    school: '',
     tenthMarks: '',
-    isIntermediate: false,
-    isDegree: false,
+    course: '', // Stores "Intermediate" or "Degree"
   })
 
   const handleChange = e => {
-    const {name, value, type, checked} = e.target
+    const {name, value} = e.target
     setFormData(prevData => ({
       ...prevData,
-      [name]: type === 'checkbox' ? checked : value,
+      [name]: value,
     }))
   }
 
@@ -25,18 +25,21 @@ const ReactPopUp = ({closePopup}) => {
     e.preventDefault()
 
     // Send data to Google Sheets
-    fetch('https://script.google.com/macros/s/AKfycbw32biohoq0MlcPrBAzLO4wchX9yfvcdkrWW8C8HGxGmXNmxkxyTW5ntTjIZitne4wc/exec', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-      body: new URLSearchParams({
-        name: formData.name,
-        school: formData.school,
-        phoneNumber: formData.phoneNumber,
-        tenthMarks: formData.tenthMarks,
-        isIntermediate: formData.isIntermediate ? 'Yes' : 'No',
-        isDegree: formData.isDegree ? 'Yes' : 'No',
-      }).toString(),
-    })
+    fetch(
+      'https://script.google.com/macros/s/AKfycbw2N0f5G97BM3tKfLJo3maKUUFswiwlWthbvL8pBwxyZWkS-821zIQ8kMKgZczserMO/exec',
+      {
+        method: 'POST',
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+        body: new URLSearchParams({
+          name: formData.name,
+          phoneNumber: formData.phoneNumber,
+          address: formData.address,
+          school: formData.school,
+          tenthMarks: formData.tenthMarks,
+          course: formData.course,
+        }).toString(),
+      },
+    )
       .then(response => response.text())
       .then(data => {
         alert('Student details submitted successfully!')
@@ -56,7 +59,9 @@ const ReactPopUp = ({closePopup}) => {
       onClose={closePopup}
       contentStyle={{
         maxWidth: '500px',
-        width: '80%',
+        width: '90%',
+        maxHeight: '100vh', 
+        overflowY: 'auto', 
         padding: '20px',
         background: '#FDFDD2',
         borderRadius: '8px',
@@ -67,9 +72,9 @@ const ReactPopUp = ({closePopup}) => {
       }}
     >
       <div className='formm'>
-        <h3 className='text-center'>React Admission Form</h3>
+        <h3 className='text-center text-black'>Admission Form</h3>
         <form onSubmit={handleSubmit}>
-          <div className='mb-5'>
+          <div className='mb-3'>
             <label htmlFor='name' className='form-label'>
               Name
             </label>
@@ -85,53 +90,6 @@ const ReactPopUp = ({closePopup}) => {
           </div>
 
           <div className='mb-3'>
-            <label htmlFor='school' className='form-label'>
-              Previous School
-            </label>
-            <input
-              type='text'
-              className='form-control'
-              id='school'
-              name='school'
-              value={formData.school}
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-          <div className='mb-3'>
-            <label className='form-label'>Intermediate or Degree</label>
-            <div>
-              <div className='form-check form-check-inline'>
-                <input
-                  type='checkbox'
-                  className='form-check-input'
-                  id='intermediate'
-                  name='isIntermediate'
-                  checked={formData.isIntermediate}
-                  onChange={handleChange}
-                />
-                <label className='form-check-label' htmlFor='intermediate'>
-                  Intermediate
-                </label>
-              </div>
-              <div className='form-check form-check-inline'>
-                <input
-                  type='checkbox'
-                  className='form-check-input'
-                  id='degree'
-                  name='isDegree'
-                  checked={formData.isDegree}
-                  onChange={handleChange}
-                />
-                <label className='form-check-label' htmlFor='degree'>
-                  Degree
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div className='mb-3'>
             <label htmlFor='phoneNumber' className='form-label'>
               Phone Number
             </label>
@@ -141,6 +99,72 @@ const ReactPopUp = ({closePopup}) => {
               id='phoneNumber'
               name='phoneNumber'
               value={formData.phoneNumber}
+              onChange={handleChange}
+              required
+            />
+          </div>
+
+          <div className='mb-3'>
+            <label htmlFor='address' className='form-label'>
+              Address
+            </label>
+            <input
+              type='text'
+              className='form-control'
+              id='address'
+              name='address'
+              value={formData.address}
+              onChange={handleChange}
+              required
+            />
+          </div>
+           
+            <div className='mb-3'>
+            <label className='form-label'>Preferred Course</label>
+            <div>
+              <div className='form-check'>
+                <input
+                  type='radio'
+                  className='form-check-input'
+                  id='intermediate'
+                  name='course'
+                  value='Intermediate'
+                  checked={formData.course === 'Intermediate'}
+                  onChange={handleChange}
+                  required
+                />
+                <label className='form-check-label' htmlFor='intermediate'>
+                  Intermediate
+                </label>
+              </div>
+              <div className='form-check'>
+                <input
+                  type='radio'
+                  className='form-check-input'
+                  id='degree'
+                  name='course'
+                  value='Degree'
+                  checked={formData.course === 'Degree'}
+                  onChange={handleChange}
+                  required
+                />
+                <label className='form-check-label' htmlFor='degree'>
+                  Degree
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div className='mb-3'>
+            <label htmlFor='school' className='form-label'>
+              Previous School
+            </label>
+            <input
+              type='text'
+              className='form-control'
+              id='school'
+              name='school'
+              value={formData.school}
               onChange={handleChange}
               required
             />
@@ -160,6 +184,8 @@ const ReactPopUp = ({closePopup}) => {
               required
             />
           </div>
+
+          
 
           <div className='d-flex justify-content-between'>
             <button type='submit' className='btn btn-primary'>
