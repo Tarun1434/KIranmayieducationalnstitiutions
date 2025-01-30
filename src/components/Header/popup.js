@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Popup from 'reactjs-popup'
-import 'reactjs-popup/dist/index.css' // Ensure you have this import
-import './index.css' // Custom CSS for the popup
+import 'reactjs-popup/dist/index.css'
+import './index.css'
 
 const ReactPopUp = ({closePopup}) => {
   const [formData, setFormData] = useState({
@@ -23,8 +23,29 @@ const ReactPopUp = ({closePopup}) => {
 
   const handleSubmit = e => {
     e.preventDefault()
-    console.log('Form Data Submitted:', formData)
-    closePopup() // Close the popup after form submission
+
+    // Send data to Google Sheets
+    fetch('https://script.google.com/macros/s/AKfycbw32biohoq0MlcPrBAzLO4wchX9yfvcdkrWW8C8HGxGmXNmxkxyTW5ntTjIZitne4wc/exec', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+      body: new URLSearchParams({
+        name: formData.name,
+        school: formData.school,
+        phoneNumber: formData.phoneNumber,
+        tenthMarks: formData.tenthMarks,
+        isIntermediate: formData.isIntermediate ? 'Yes' : 'No',
+        isDegree: formData.isDegree ? 'Yes' : 'No',
+      }).toString(),
+    })
+      .then(response => response.text())
+      .then(data => {
+        alert('Student details submitted successfully!')
+        closePopup() // Close the popup after form submission
+      })
+      .catch(error => {
+        console.error('Error:', error)
+        alert('There was an error submitting the form.')
+      })
   }
 
   return (
@@ -34,15 +55,15 @@ const ReactPopUp = ({closePopup}) => {
       closeOnDocumentClick
       onClose={closePopup}
       contentStyle={{
-        maxWidth: '500px', // Set the max width of the popup
-        width: '80%', // Width as a percentage of the screen
+        maxWidth: '500px',
+        width: '80%',
         padding: '20px',
         background: '#FDFDD2',
         borderRadius: '8px',
         boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
       }}
       overlayStyle={{
-        background: 'rgba(0, 0, 0, 0.5)', // Dim the background when popup is active
+        background: 'rgba(0, 0, 0, 0.5)',
       }}
     >
       <div className='formm'>
