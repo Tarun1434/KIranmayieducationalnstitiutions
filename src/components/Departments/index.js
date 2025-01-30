@@ -21,9 +21,7 @@ function Departments() {
                   alt='...'
                 />
                 <div className='facility-body text-black'>
-                  <p className='facility-text'>
-                     PHYSICS LABRATORY
-                  </p>
+                  <p className='facility-text'>PHYSICS LABRATORY</p>
                 </div>
               </div>
               <div className='facility-card'>
@@ -33,9 +31,7 @@ function Departments() {
                   alt='...'
                 />
                 <div className='facility-body text-black'>
-                  <p className='facility-text'>
-                    CHEMICAL LABRATORY
-                  </p>
+                  <p className='facility-text'>CHEMICAL LABRATORY</p>
                 </div>
               </div>
               <div className='facility-card'>
@@ -45,9 +41,7 @@ function Departments() {
                   alt='...'
                 />
                 <div className='facility-body text-black'>
-                  <p className='facility-text'>
-                     COMPUTER LABRATORY
-                  </p>
+                  <p className='facility-text'>COMPUTER LABRATORY</p>
                 </div>
               </div>
               <div className='facility-card'>

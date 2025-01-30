@@ -4,6 +4,10 @@ import {BsChevronRight} from 'react-icons/bs'
 import {IoMail} from 'react-icons/io5'
 import {IoCall} from 'react-icons/io5'
 import {FaHouse} from 'react-icons/fa6'
+import {ImFacebook2} from 'react-icons/im'
+import {IoLogoWhatsapp} from 'react-icons/io'
+import {RiTwitterXLine} from 'react-icons/ri'
+import {BiLogoGmail} from 'react-icons/bi'
 
 function Footer() {
   return (
@@ -39,21 +43,21 @@ function Footer() {
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <a href='http://flames.ccbp.tech'>
+              <NavLink to='/departments'>
                 <span>Facilities</span>
-              </a>
+              </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <a href='http://flames.ccbp.tech'>
+              <NavLink to='/about'>
                 <span> Founders Message</span>
-              </a>
+              </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <a href='http://flames.ccbp.tech'>
+              <NavLink to='/departments'>
                 <span>Courses offered</span>
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -62,33 +66,33 @@ function Footer() {
           <ul className='list_items'>
             <li className='list-item'>
               <BsChevronRight />
-              <a href='http://flames.ccbp.tech'>
+              <NavLink to='/'>
                 <span>Library</span>
-              </a>
+              </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <a href='http://flames.ccbp.tech'>
+              <NavLink to='/'>
                 <span>Chenmical Lab</span>
-              </a>
+              </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <a href='http://flames.ccbp.tech'>
+              <NavLink to='/phy'>
                 <span>Science Lab</span>
-              </a>
+              </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <a href='http://flames.ccbp.tech'>
+              <NavLink to='/'>
                 <span> Cmputer Lab</span>
-              </a>
+              </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <a href='http://flames.ccbp.tech'>
+              <NavLink to='/'>
                 <span>Seminar Hall</span>
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -109,12 +113,19 @@ function Footer() {
             <IoMail />
             <span>kiranmayidegreecollege@gmail.com</span>
           </div>
+          <div className='symbols'>
+            <ImFacebook2 size={30} className='mr-2' />
+            <IoLogoWhatsapp size={35} className='mr-2' />
+            <RiTwitterXLine size={35} className='mr-2' />
+            <BiLogoGmail size={35} className='mr-2' />
+            <IoCall size={35} />
+          </div>
         </div>
       </div>
       <div className='footers_bottom'>
         <p className='footer_para'>
           Copyright © Kiranmayi Degree College 2021. All Rights Reserved |
-          Designed by <a href='http://flames.ccbp.tech'> Tarun Potnuru</a>
+          Designed by <a href='http://flames.ccpb.tech'> Tarun Potnuru</a>
         </p>
       </div>
     </footer>
