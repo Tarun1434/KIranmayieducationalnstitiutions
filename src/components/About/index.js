@@ -11,6 +11,7 @@ function About() {
       <div className='about_section_'>
         <div className='ab d-flex align-items-center justify-content-center'>
           <div className='about d-flex flex-column  flex-md-row justify-content-center'>
+            <h1 className='about-heading'>ABOUT</h1>
             <div className='about_section d-flex flex-column'>
               <h2 className='about_heading'>KIRANMAYI DEGREE COLLEGE</h2>
               <p className='para_about'>

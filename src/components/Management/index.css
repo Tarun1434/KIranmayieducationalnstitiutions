@@ -46,8 +46,9 @@
   font-size: 14px;
 }
 
-/* Responsive layout for teacher cards */
-.Management_section {
+/* Layout for Director, Correspondent, Principal */
+.director_section,
+.teacher_section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -62,7 +63,13 @@
 
 @media (max-width: 768px) {
   .teacher_card {
-    flex: 1 1 45%; /* 2 cards per row on medium screens */
+    flex: 1 1 45%;
+  }
+  .Management_section .coleg_faculty {
+    font-size: 30px;
+    padding: 18px 0;
+    color: white;
+    font-weight: 900;
   }
 }
 
@@ -70,15 +77,18 @@
   .teacher_card {
     flex: 1 1 100%; /* 1 card per row on smaller screens */
   }
+  .coleg_faculty {
+    font-size: 16px;
+    padding: 8px 0;
+  }
 }
 
-/* Background image for the heading */
 .coleg_faculty {
   position: relative;
   display: inline-block;
   padding: 20px;
   color: white;
-  font-size: 30px;
+  font-size: 38px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;

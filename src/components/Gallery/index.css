@@ -1,17 +1,118 @@
+/* General Styles */
 .gallery {
-    text-align: center;
-    padding: 20px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #e9ecef;
+  background-image: url('https://res.cloudinary.com/dsnjnciud/image/upload/v1738139609/aju9bqk7jrz7hlv0be1d.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
+.heading_capusgallery {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url('https://res.cloudinary.com/dsnjnciud/image/upload/v1738305358/ai-generated-an-indian-male-teacher-smiling-in-the-classroom-photo_cptixs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
+.gallery h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: indigo;
+  margin-bottom: 20px;
 }
 
 .gallery-grid {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
 }
 
-.gallery-grid img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-card:hover {
+  transform: translateY(-5px);
+}
+
+.gallery-card-1 {
+  border: 5px solid #ff7043;
+}
+
+.gallery-card-2 {
+  border: 5px solid #26c6da;
+}
+
+.gallery-card-3 {
+  border: 5px solid #8e24aa;
+}
+.gallery-card-4 {
+  border: 5px solid #ff7043;
+}
+
+.gallery-card-5 {
+  border: 5px solid #26c6da;
+}
+
+.gallery-card-6 {
+  border: 5px solid #8e24aa;
+}
+
+.gallery-card-7 {
+  border: 5px solid #ff7043;
+}
+
+.gallery-card-8 {
+  border: 5px solid #26c6da;
+}
+
+.gallery-card-9 {
+  border: 5px solid #8e24aa;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-card:hover .gallery-img {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .gallery h2 {
+    font-size: 28px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery h2 {
+    font-size: 24px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
 }
