@@ -64,13 +64,13 @@ function NewHeader() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/gallery' className='nav-link'>
-                  Gallery
+                <Link to='/management' className='nav-link'>
+                  Management
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/news' className='nav-link'>
-                  News
+                <Link to='/gallery' className='nav-link'>
+                  Gallery
                 </Link>
               </li>
               <li className='nav-item'>

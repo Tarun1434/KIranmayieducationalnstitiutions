@@ -1,0 +1,90 @@
+.Management_section {
+  padding: 20px;
+  text-align: center;
+  background-image: url('https://res.cloudinary.com/dsnjnciud/image/upload/v1738139609/aju9bqk7jrz7hlv0be1d.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.coleg_faculty {
+  color: white;
+  background-color: navy;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.teacher_card {
+  background-color: darkslategray;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.teacher_photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.teacher_name {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.teacher_course {
+  color: lightgray;
+  font-size: 14px;
+}
+
+/* Responsive layout for teacher cards */
+.Management_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.teacher_card {
+  flex: 1 1 250px; /* Flex item with a minimum width of 250px */
+  max-width: 300px; /* Max width for each card */
+  margin: 15px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .teacher_card {
+    flex: 1 1 45%; /* 2 cards per row on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .teacher_card {
+    flex: 1 1 100%; /* 1 card per row on smaller screens */
+  }
+}
+
+/* Background image for the heading */
+.coleg_faculty {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url('https://res.cloudinary.com/dsnjnciud/image/upload/v1738305358/ai-generated-an-indian-male-teacher-smiling-in-the-classroom-photo_cptixs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}

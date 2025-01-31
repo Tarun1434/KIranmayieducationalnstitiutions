@@ -6,7 +6,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Departments from './components/Departments'
 import Gallery from './components/Gallery'
-import News from './components/News'
+import Management from './components/Management'
 import Contact from './components/Contact'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/departments' element={<Departments />} />
           <Route path='/gallery' element={<Gallery />} />
-          <Route path='/news' element={<News />} />
+          <Route path='/management' element={<Management />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </div>
