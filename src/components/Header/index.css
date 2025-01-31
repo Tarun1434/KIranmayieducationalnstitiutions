@@ -4,6 +4,8 @@
   z-index: 1000;
   width: 100%;
   top: 0;
+  padding-left: 0; /* Remove left padding */
+  padding-right: 0; /* Remove right padding */
 }
 
 .college_name {
@@ -14,6 +16,7 @@
   line-height: 1;
   font-weight: 800;
 }
+
 .college_educationaL {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
@@ -21,6 +24,7 @@
   color: coral;
   line-height: 0.5;
 }
+
 .collge_name_I_D {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
@@ -40,60 +44,7 @@
 .names_of_college .collge_name_I_D {
   display: block;
   line-height: 1;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .navbar-brand {
-    flex-direction: row; /* Keep logo and college name in a row */
-    align-items: center;
-    text-align: left; /* Align items to the left */
-  }
-
-  .navbar-toggler-icon {
-    width: 20px; /* Decrease width of the hamburger icon */
-    height: 12px; /* Decrease height of the hamburger lines */
-  }
-  .college_name {
-    font-size: 24px; /* Reduce size for smaller screens */
-    letter-spacing: 0.3em;
-    font-weight: 800;
-    color: coral;
-    margin-left: 10px; /* Add space between logo and name */
-  }
-
-  .college_educationaL {
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    color: coral;
-    padding-right: 5px;
-  }
-
-  .collge_name_I_D {
-    font-size: 10px;
-    line-height: 0.5;
-  }
-
-  .college_logo {
-    height: 40px; /* Adjust logo size for smaller screens */
-    width: 40px;
-  }
-
-  .navbar-nav {
-    text-align: center; /* Align navbar items in the center */
-  }
-
-  .nav-item {
-    margin: 5px 0; /* Add margin between nav items */
-  }
-
-  .navbar-collapse {
-    display: none; /* Prevent interference with Bootstrap's JavaScript behavior */
-  }
-
-  .navbar-collapse.show {
-    display: block; /* Ensure correct display when toggled */
-  }
+  text-decoration: none !important; 
 }
 
 /* Styling for Header and Navbar */
@@ -104,6 +55,7 @@ header {
 .navbar {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .nav-link {
   margin: 0 10px;
   color: #f8f9fa;
@@ -117,6 +69,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-align: left;
 }
 
 .navbar-toggler {
@@ -171,6 +124,62 @@ button[type='button'] {
 button[type='button']:hover {
   background-color: #5a6268;
 }
+
 .formm {
   margin-top: 100px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-brand {
+    flex-direction: row; /* Keep logo and college name in a row */
+    align-items: center;
+    text-align: left; /* Align items to the left */
+  }
+
+  .navbar-toggler-icon {
+    width: 20px; /* Decrease width of the hamburger icon */
+    height: 12px; /* Decrease height of the hamburger lines */
+  }
+
+  .college_name {
+    font-size: 24px; /* Reduce size for smaller screens */
+    letter-spacing: 0.3em;
+    font-weight: 800;
+    color: coral;
+    margin-left: 10px; /* Add space between logo and name */
+  }
+
+  .college_educationaL {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: coral;
+    padding-right: 5px;
+  }
+
+  .collge_name_I_D {
+    font-size: 10px;
+    line-height: 0.5;
+  }
+
+  .college_logo {
+    height: 40px; /* Adjust logo size for smaller screens */
+    width: 40px;
+  }
+
+  .navbar-nav {
+    text-align: center; /* Align navbar items in the center */
+  }
+
+  .nav-item {
+    margin: 5px 0; /* Add margin between nav items */
+  }
+
+  .navbar-collapse {
+    display: none; /* Prevent interference with Bootstrap's JavaScript behavior */
+  }
+
+  .navbar-collapse.show {
+    display: block; /* Ensure correct display when toggled */
+  }
 }
