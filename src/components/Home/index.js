@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import Header from '../Header'
+import {NavLink} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Carousel} from 'react-bootstrap'
 import 'animate.css/animate.min.css'
@@ -167,7 +168,9 @@ function Home() {
                 alt='infrastructure'
               />
               <div className='text_content_infra'>
-                <h1 className='heading_infra'>Infrastructure</h1>
+               
+                  <h1 className='heading_infra'>Infrastructure</h1>
+               
               </div>
             </div>
             <div className='simlarcards'>

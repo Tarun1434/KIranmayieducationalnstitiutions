@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-
+import ScrollToTop from './ScrollTop'
 import Home from './components/Home'
 import About from './components/About'
 import Departments from './components/Departments'
@@ -12,6 +12,7 @@ import Contact from './components/Contact'
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className='App'>
         <Routes>
           <Route path='/' element={<Home />} />

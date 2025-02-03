@@ -66,31 +66,31 @@ function Footer() {
           <ul className='list_items'>
             <li className='list-item'>
               <BsChevronRight />
-              <NavLink to='/'>
+              <NavLink to='/departments'>
                 <span>Library</span>
               </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <NavLink to='/'>
+              <NavLink to='/departments'>
                 <span>Chenmical Lab</span>
               </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <NavLink to='/phy'>
+              <NavLink to='/departments'>
                 <span>Science Lab</span>
               </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <NavLink to='/'>
+              <NavLink to='/departments'>
                 <span> Cmputer Lab</span>
               </NavLink>
             </li>
             <li className='list-item'>
               <BsChevronRight />
-              <NavLink to='/'>
+              <NavLink to='/departments'>
                 <span>Seminar Hall</span>
               </NavLink>
             </li>
@@ -125,7 +125,8 @@ function Footer() {
       <div className='footers_bottom'>
         <p className='footer_para'>
           Copyright © Kiranmayi Degree College 2021. All Rights Reserved |
-          Designed by <a href='http://flames.ccpb.tech'> Tarun Potnuru</a>
+          Designed by{' '}
+          <a href='https://tarunportfolios.ccbp.tech/'> Tarun Potnuru</a>
         </p>
       </div>
     </footer>
