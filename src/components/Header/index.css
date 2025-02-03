@@ -7,7 +7,17 @@
   padding-left: 0; /* Remove left padding */
   padding-right: 0; /* Remove right padding */
 }
+/* Add this to your CSS */
+.navbar-brand {
+  text-decoration: none !important;
+}
 
+/* Remove underline states for all interactions */
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active {
+  text-decoration: none !important;
+}
 .college_name {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 35px;
@@ -44,7 +54,7 @@
 .names_of_college .collge_name_I_D {
   display: block;
   line-height: 1;
-  text-decoration: none !important; 
+  text-decoration: none !important;
 }
 
 /* Styling for Header and Navbar */

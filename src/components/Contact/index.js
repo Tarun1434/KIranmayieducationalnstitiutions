@@ -141,7 +141,7 @@ function Contact() {
         </form>
 
         <div className='feedback-section'>
-          <h3 className="text-black">Recent Feedback:</h3>
+          <h3 className='text-black'>Recent Feedback:</h3>
           {submittedData.length > 0 ? (
             submittedData.map((feedback, index) => (
               <div className='feedback' key={index}>

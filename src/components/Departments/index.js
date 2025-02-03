@@ -13,7 +13,7 @@ function Departments() {
         <div className='courses_offered d-flex flex-column justify-content-center align-items-center'>
           <div className='for_intermediate'>
             <h1 className='facilities-heading'>FACILITIES</h1>
-            <div className='facilities-cards d-flex flex-column flex-md-row'>
+            <div className='facilities-cards d-flex flex wrap justify-content-center'>
               <div className='facility-card'>
                 <img
                   src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737897280/33E486F5F3B7E76C95CC9DC962D1AB7D_uwaka5.jpg'
