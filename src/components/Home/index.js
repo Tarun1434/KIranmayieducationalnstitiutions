@@ -10,7 +10,7 @@ import Marqueetag from '../Marqueetag'
 
 export function CourseOffered() {
   return (
-    <div className='courses_offered  d-flex  flex-column justify-content-center align-items-center'>
+    <div className='courses_offered d-flex flex-column justify-content-center align-items-center'>
       <div className='for_intermediate'>
         <h1 className='InterMeduiate'>Intermediate </h1>
         <div className='card_ss d-flex flex-column flex-md-row'>
@@ -49,7 +49,7 @@ export function CourseOffered() {
         </div>
       </div>
 
-      <div className='for_Degree d-flex  flex-column justify-content-center align-items-center'>
+      <div className='for_Degree d-flex flex-column justify-content-center align-items-center'>
         <h1 className='InterMeduiate'>Degree </h1>
         <div className='card_ss d-flex flex-column flex-md-row'>
           <div className='card'>
@@ -120,10 +120,10 @@ function Home() {
     <>
       <Header />
       <Marqueetag />
-      <div className='backgroundimage'>
+      <div className='backgroundimage container-fluid px-0'>
+        {/* Carousel Section */}
         <div className='row align-items-center g-4'>
-          {/* Carousel Section */}
-          <div className='col-12'>
+          <div className=''>
             <div className='border border-secondary rounded overflow-hidden shadow'>
               <Carousel
                 interval={2000}
@@ -138,21 +138,12 @@ function Home() {
                     alt='Slide 1'
                   />
                 </Carousel.Item>
-                <Carousel.Item className=''>
+                <Carousel.Item>
                   <img
                     className='d-block w-100'
                     src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737631716/kinamyi_image_clvgdt.jpg'
                     alt='Slide 2'
                   />
-                  <div className='carousel_text'>
-                    <h3 className='carosel_head animate__headShake'>
-                      Welcome To <br /> KIRANMAYI DEGREE COLLEGE
-                    </h3>
-
-                    <h5 className='carosel_para animate__heartBeat'>
-                      INTERMEDIATE & DEGREE
-                    </h5>
-                  </div>
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
@@ -165,9 +156,10 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* infrastuctre*/}
-        <div className='infrastuctre '>
-          <div className='d-flex flex-column flex-md-row justify-content-center '>
+
+        {/* Infrastructure Section */}
+        <div className='infrastuctre'>
+          <div className='d-flex flex-column flex-md-row justify-content-center'>
             <div className='simlarcards'>
               <img
                 src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737788718/university-robotics-lecture-black-teacher-explain-engineering-to-students-she-uses_u0rmji.jpg'
@@ -200,10 +192,11 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* Mission and vison */}
+
+        {/* Mission & Vision Section */}
         <div className='mission_vison d-flex flex-column text-white'>
           <h1 className='heading_vison'>VISION & MISSION</h1>
-          <div className='misonvisonconatiner d-flex flex-column flex-md-row justify-content-center '>
+          <div className='misonvisonconatiner d-flex flex-column flex-md-row justify-content-center'>
             <div className='photos'>
               <div className='d-flex flex-column justify-content-center'>
                 <img
@@ -222,7 +215,7 @@ function Home() {
               <div className='sec'>
                 <h1 className='missionheading'>Vision</h1>
                 <p className='missionparagraph'>
-                  Kiiranmyi Degree College in its pursuits and excellence
+                  Kiranmayi Degree College in its pursuits and excellence
                   provides a well-balanced quality education for students in
                   construction of mind that explores creativity, innovation with
                   multiple perspective intellectuality, morality and
@@ -242,13 +235,13 @@ function Home() {
               <div className='sec'>
                 <h1 className='missionheading'>Mission</h1>
                 <ul className='missionparagraph'>
-                  <li>Imparting value based education.</li>
+                  <li>Imparting value-based education.</li>
                   <li>
                     Achieving excellence in curricular and co-curricular
                     activities.
                   </li>
                   <li>
-                    Stimulating Technology based education among students.
+                    Stimulating Technology-based education among students.
                   </li>
                   <li>Inculcating research culture among Staffs & Students.</li>
                   <li>Making students socially responsible citizens.</li>
@@ -258,8 +251,7 @@ function Home() {
           </div>
         </div>
 
-        {/* Courses Offered*/}
-
+        {/* Courses Offered Section */}
         <CourseOffered />
       </div>
       <Footer />

@@ -15,9 +15,11 @@ dependencies:
   react-responsive-carousel: 3.2.23
   react-router-dom: 7.1.1_react-dom@19.0.0+react@19.0.0
   react-scripts: 5.0.1_react@19.0.0
+  react-slick: 0.30.3_react-dom@19.0.0+react@19.0.0
   react-smooth-marquee: 1.0.0
   react-text-marquee: 1.0.1_react@19.0.0
   reactjs-popup: 2.0.6_react-dom@19.0.0+react@19.0.0
+  slick-carousel: 1.8.1
   web-vitals: 4.2.4
   webpack: 5.97.1
 devDependencies:
@@ -4974,6 +4976,10 @@ packages:
       node: '>=10.13.0'
     resolution:
       integrity: sha512-0/r0MySGYG8YqlayBZ6MuCfECmHFdJ5qyPh8s8wa5Hnm6SaFLSK1VYCbj+NKp090Nm1caZhD+QTnmxO7esYGyQ==
+  /enquire.js/2.1.6:
+    dev: false
+    resolution:
+      integrity: sha512-/KujNpO+PT63F7Hlpu4h3pE3TokKRHN26JYmQpPyjkRD/N57R7bPDNojMXdi7uveAKjYB7yQnartCxZnFWr0Xw==
   /entities/2.2.0:
     dev: false
     resolution:
@@ -7494,6 +7500,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==
+  /json2mq/0.2.0:
+    dependencies:
+      string-convert: 0.2.1
+    dev: false
+    resolution:
+      integrity: sha512-SzoRg7ux5DWTII9J2qkrZrqV1gt+rTaoufMxEzXbS26Uid0NwaJd123HcoB80TgubEppxxIGdNxCx50fEoEWQA==
   /json5/1.0.2:
     dependencies:
       minimist: 1.2.8
@@ -9784,6 +9796,21 @@ packages:
         optional: true
     resolution:
       integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==
+  /react-slick/0.30.3_react-dom@19.0.0+react@19.0.0:
+    dependencies:
+      classnames: 2.5.1
+      enquire.js: 2.1.6
+      json2mq: 0.2.0
+      lodash.debounce: 4.0.8
+      react: 19.0.0
+      react-dom: 19.0.0_react@19.0.0
+      resize-observer-polyfill: 1.5.1
+    dev: false
+    peerDependencies:
+      react: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    resolution:
+      integrity: sha512-B4x0L9GhkEWUMApeHxr/Ezp2NncpGc+5174R02j+zFiWuYboaq98vmxwlpafZfMjZic1bjdIqqmwLDcQY0QaFA==
   /react-smooth-marquee/1.0.0:
     dev: false
     resolution:
@@ -9985,6 +10012,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
+  /resize-observer-polyfill/1.5.1:
+    dev: false
+    resolution:
+      integrity: sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
   /resolve-cwd/3.0.0:
     dependencies:
       resolve-from: 5.0.0
@@ -10437,6 +10468,12 @@ packages:
       node: '>=12'
     resolution:
       integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
+  /slick-carousel/1.8.1:
+    dev: false
+    peerDependencies:
+      jquery: '>=1.8.0'
+    resolution:
+      integrity: sha512-XB9Ftrf2EEKfzoQXt3Nitrt/IPbT+f1fgqBdoxO3W/+JYvtEOW6EgxnWfr9GH6nmULv7Y2tPmEX3koxThVmebA==
   /sockjs/0.3.24:
     dependencies:
       faye-websocket: 0.11.4
@@ -10561,6 +10598,10 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
+  /string-convert/0.2.1:
+    dev: false
+    resolution:
+      integrity: sha512-u/1tdPl4yQnPBjnVrmdLo9gtuLvELKsAoRapekWggdiQNvvvum+jYF329d84NAa660KQw7pB2n36KrIKVoXa3A==
   /string-length/4.0.2:
     dependencies:
       char-regex: 1.0.2
@@ -12000,9 +12041,11 @@ specifiers:
   react-responsive-carousel: ^3.2.23
   react-router-dom: ^7.1.1
   react-scripts: 5.0.1
+  react-slick: ^0.30.3
   react-smooth-marquee: ^1.0.0
   react-text-marquee: ^1.0.1
   reactjs-popup: ^2.0.6
+  slick-carousel: ^1.8.1
   tailwindcss: ^4.0.0
   web-vitals: ^4.2.4
   webpack: ^5.97.1
