@@ -5,9 +5,22 @@ body {
 }
 
 @media (max-width: 768px) {
-   body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 }
+.whatspp {
+  position: fixed; /* Fix the position */
+  bottom: 20px; /* Distance from the bottom */
+  left: 30px; /* Distance from the left */
+  z-index: 1000; /* Ensure it's above other elements */
+  width: 60px; /* Increase size */
+  height: 60px; /* Increase size */
+  background-color: #0cdf2f; /* Green background */
+  border-radius: 50%; /* Make it circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

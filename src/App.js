@@ -1,6 +1,8 @@
 import React from 'react'
-import './index.css'
+import './App.css'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faWhatsapp} from '@fortawesome/free-brands-svg-icons' // Import WhatsApp Icon
 import ScrollToTop from './ScrollTop'
 import Home from './components/Home'
 import About from './components/About'
@@ -22,6 +24,15 @@ function App() {
           <Route path='/management' element={<Management />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
+
+        {/* WhatsApp Icon */}
+        <div className='whatspp'>
+          <FontAwesomeIcon
+            icon={faWhatsapp}
+            style={{color: 'white'}}
+            size='2x'
+          />
+        </div>
       </div>
     </Router>
   )
