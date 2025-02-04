@@ -2,6 +2,7 @@ dependencies:
   '@fortawesome/fontawesome-free': 6.7.2
   '@fortawesome/fontawesome-svg-core': 6.7.2
   '@fortawesome/free-brands-svg-icons': 6.7.2
+  '@fortawesome/free-solid-svg-icons': 6.7.2
   '@fortawesome/react-fontawesome': 0.2.2_994bde9539356dd9b3251d54db4ed5d2
   '@popperjs/core': 2.11.8
   '@tailwindcss/postcss': 4.0.0
@@ -1808,6 +1809,14 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-zu0evbcRTgjKfrr77/2XX+bU+kuGfjm0LbajJHVIgBWNIDzrhpRxiCPNT8DW5AdmSsq7Mcf9D1bH0aSeSUSM+Q==
+  /@fortawesome/free-solid-svg-icons/6.7.2:
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.7.2
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-GsBrnOzU8uj0LECDfD5zomZJIjrPhIlWU82AHwa2s40FKH+kcxQaBvBo3Z4TxyZHIyX8XTDxsyA33/Vx9eFuQA==
   /@fortawesome/react-fontawesome/0.2.2_994bde9539356dd9b3251d54db4ed5d2:
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.7.2
@@ -12069,6 +12078,7 @@ specifiers:
   '@fortawesome/fontawesome-free': ^6.7.2
   '@fortawesome/fontawesome-svg-core': ^6.7.2
   '@fortawesome/free-brands-svg-icons': ^6.7.2
+  '@fortawesome/free-solid-svg-icons': ^6.7.2
   '@fortawesome/react-fontawesome': ^0.2.2
   '@popperjs/core': ^2.11.8
   '@tailwindcss/postcss': ^4.0.0

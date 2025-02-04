@@ -127,7 +127,7 @@
   align-items: center;
   margin: 50px 0px 50px 0px;
   padding: 20px;
-  background-color: #0011de;
+  background-color: #fef5c1;
 }
 
 .paragraph {
@@ -146,11 +146,14 @@
 .heading_vison {
   margin: 20px;
   margin-bottom: 50px;
+  color: #5636a7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .missionheading {
   font-size: 20px;
-  color: greenyellow;
+  color:#5636a7 ;
 }
 
 /* Responsive Design */
@@ -254,7 +257,7 @@
 
 /* Fix mission/vision section */
 .mission_vison {
-  background-color: #0011de;
+  background-color: #fef5c1;
   padding: 2rem 1rem;
 }
 

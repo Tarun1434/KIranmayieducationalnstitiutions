@@ -195,7 +195,7 @@ function Home() {
         </div>
 
         {/* Mission & Vision Section */}
-        <div className='mission_vison d-flex flex-column text-white'>
+        <div className='mission_vison d-flex flex-column text-black'>
           <h1 className='heading_vison'>VISION & MISSION</h1>
           <div className='misonvisonconatiner d-flex flex-column flex-md-row justify-content-center'>
             <div className='photos'>
