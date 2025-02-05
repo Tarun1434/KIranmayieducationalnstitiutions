@@ -10,43 +10,43 @@ import Footer from '../Footer'
 import Marqueetag from '../Marqueetag'
 
 export function CourseOffered() {
+  const card_details = [
+    { 
+       id : 1,
+      card_image:
+        'https://res.cloudinary.com/dsnjnciud/image/upload/v1737897280/33E486F5F3B7E76C95CC9DC962D1AB7D_uwaka5.jpg',
+      card_text: '"M.P.C" (MATHS ,PHYSICS ,CHEMISTRY)',
+    },
+    {
+       id : 2,
+      card_image:
+        'https://res.cloudinary.com/dsnjnciud/image/upload/v1737897306/this-is-what-we-are-testing-today-biology-lesson-science-experiments-in-bilogy-laboratory-little-girls-in-school-lab-biology-education-little-scientist-work-with-microscope-chemistry-research-2B8M3YN_lujeup.jpg',
+      card_text: '"Bi.P.C" (BIOLOGY ,PHYSICS ,CHEMISTRY)',
+    },
+    {
+       id : 3,
+      card_image:
+        'ttps://res.cloudinary.com/dsnjnciud/image/upload/v1737898660/stock-chart-rising-upward_u2vasf.jpg',
+      card_text: '"H.E.C" (HISTORY, ECONOMICS, CIVICS)',
+    },
+  ]
   return (
     <div className='courses_offered d-flex flex-column justify-content-center align-items-center'>
       <div className='for_intermediate'>
         <h1 className='InterMeduiate'>Intermediate </h1>
-        <div className='card_ss d-flex flex-column flex-md-row'>
-          <div className='card'>
-            <img
-              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737897280/33E486F5F3B7E76C95CC9DC962D1AB7D_uwaka5.jpg'
-              className='card-img-top'
-              alt='...'
-            />
-            <div className='card_body text-black'>
-              <p className='card-text'>"M.P.C" (MATHS ,PHYSICS ,CHEMISTRY)</p>
+        <div className='card_ss d-flex flex-column flex-md-row' key={card_details.id}>
+          {card_details.map(cards => (
+            <div className='card'>
+              <img
+                src={cards.card_image}
+                className='card-img-top'
+                alt='...'
+              />
+              <div className='card_body text-black'>
+                <p className='card-text'> {cards.card_text} </p>
+              </div>
             </div>
-          </div>
-          <div className='card'>
-            <img
-              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737897306/this-is-what-we-are-testing-today-biology-lesson-science-experiments-in-bilogy-laboratory-little-girls-in-school-lab-biology-education-little-scientist-work-with-microscope-chemistry-research-2B8M3YN_lujeup.jpg'
-              className='card-img-top'
-              alt='...'
-            />
-            <div className='card_body text-black'>
-              <p className='card-text'>
-                "Bi.P.C" (BIOLOGY ,PHYSICS ,CHEMISTRY)
-              </p>
-            </div>
-          </div>
-          <div className='card'>
-            <img
-              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737898660/stock-chart-rising-upward_u2vasf.jpg'
-              className='card-img-top'
-              alt='...'
-            />
-            <div className='card_body text-black'>
-              <p className='card-text'>"H.E.C" (HISTORY, ECONOMICS, CIVICS)</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
 

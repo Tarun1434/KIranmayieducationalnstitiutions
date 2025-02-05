@@ -8,21 +8,21 @@ function Management() {
   const topFacultyList = [
     {
       id: 1,
-      name: 'Dr. John Doe (Director)',
+      name: 'T. Tirupathi Rao',
       photo:
         'https://res.cloudinary.com/dsnjnciud/image/upload/v1738305358/ai-generated-an-indian-male-teacher-smiling-in-the-classroom-photo_cptixs.jpg',
       course: 'Director',
     },
     {
       id: 2,
-      name: 'Mrs. Jane Smith (Correspondent)',
+      name: 'Manasa',
       photo:
         'https://res.cloudinary.com/dsnjnciud/image/upload/v1738305359/premium_photo-1682089789852-e3023ff6df24_uzwdnu.jpg',
       course: 'Correspondent',
     },
     {
       id: 3,
-      name: 'Mr. Sam Brown (Principal)',
+      name: 'Jagan Mohan rao',
       photo:
         'https://res.cloudinary.com/dsnjnciud/image/upload/v1738305359/confident-bangladeshi-male-school-teacher-posing-in-classroom-education-diversity-teaching-concept-photo_mvm4lg.jpg',
       course: 'Principal',
@@ -32,21 +32,21 @@ function Management() {
   const subjectTeacherList = [
     {
       id: 4,
-      name: 'Mr. Mark White (Mathematics)',
+      name: 'Chemistry Sir',
       photo:
         'https://res.cloudinary.com/dsnjnciud/image/upload/v1738305358/ai-generated-an-indian-male-teacher-smiling-in-the-classroom-photo_cptixs.jpg',
       course: 'Mathematics',
     },
     {
       id: 5,
-      name: 'Ms. Sarah Green (Physics)',
+      name: 'Ravi Kumar',
       photo:
         'https://res.cloudinary.com/dsnjnciud/image/upload/v1738305359/premium_photo-1682089789852-e3023ff6df24_uzwdnu.jpg',
       course: 'Physics',
     },
     {
       id: 6,
-      name: 'Mr. David Black (Chemistry)',
+      name: 'Subhasini',
       photo:
         'https://res.cloudinary.com/dsnjnciud/image/upload/v1738305359/confident-bangladeshi-male-school-teacher-posing-in-classroom-education-diversity-teaching-concept-photo_mvm4lg.jpg',
       course: 'Chemistry',
