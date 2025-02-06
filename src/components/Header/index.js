@@ -90,7 +90,7 @@ function NewHeader() {
                   data-bs-target='#navbarNav'
                   onClick={openPopup}
                 >
-                   ADMISSION
+                  ADMISSION
                 </p>
               </li>
             </ul>

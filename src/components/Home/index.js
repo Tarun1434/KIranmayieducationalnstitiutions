@@ -9,7 +9,6 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import Footer from '../Footer'
 import Marqueetag from '../Marqueetag'
 
-
 function Home() {
   return (
     <>
@@ -153,6 +152,8 @@ function Home() {
           <h1 className='acdamics_heading'>Our Academics</h1>
           <h2 className='acdamics_caption'>"Dream, learn, achieve."</h2>
           <div className='d-flex flex-md-row flex-column justify-content-center'>
+
+         <NavLink to='/courses' >
             <div className='acdmics_image'>
               <img
                 src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819779/92557746_lrthit.jpg'
@@ -162,6 +163,8 @@ function Home() {
               <p className='text_upon_the_image'>Intermediate</p>
               <p className='text_after_the_hover'>See More</p>
             </div>
+            </NavLink>
+    <NavLink to='/courses' >
             <div className='acdmics_image'>
               <img
                 src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819736/the-hidden-benefits-of-earning-a-college-degree_momrww.jpg'
@@ -171,6 +174,7 @@ function Home() {
               <p className='text_upon_the_image'>Degree</p>
               <p className='text_after_the_hover'>See More</p>
             </div>
+            </NavLink>
           </div>
         </div>
       </div>
