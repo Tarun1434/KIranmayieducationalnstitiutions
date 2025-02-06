@@ -64,6 +64,11 @@ function NewHeader() {
                 </Link>
               </li>
               <li className='nav-item'>
+                <Link to='/courses' className='nav-link'>
+                  Courses
+                </Link>
+              </li>
+              <li className='nav-item'>
                 <Link to='/management' className='nav-link'>
                   Management
                 </Link>
@@ -85,7 +90,7 @@ function NewHeader() {
                   data-bs-target='#navbarNav'
                   onClick={openPopup}
                 >
-                  GET ADMISSION
+                   ADMISSION
                 </p>
               </li>
             </ul>

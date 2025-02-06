@@ -3,7 +3,6 @@ import './index.css'
 import Header from '../Header'
 import Marqueetag from '../Marqueetag'
 import Footer from '../Footer'
-import {CourseOffered} from '../Home'
 
 function Departments() {
   const facilities_photos = [
@@ -83,7 +82,6 @@ function Departments() {
         <div className='container text-center mt-4'>
           <hr id='five' />
         </div>
-        <CourseOffered />
       </div>
 
       <Footer />

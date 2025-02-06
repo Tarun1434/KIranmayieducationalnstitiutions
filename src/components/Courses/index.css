@@ -1,0 +1,25 @@
+.courses_offered {
+  padding: 20px;
+  background-color: #e9ecef;
+  text-align: center;
+  background-image: url('https://res.cloudinary.com/dsnjnciud/image/upload/v1738139609/aju9bqk7jrz7hlv0be1d.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
+.Courses {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url('https://res.cloudinary.com/dsnjnciud/image/upload/v1738305358/ai-generated-an-indian-male-teacher-smiling-in-the-classroom-photo_cptixs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
