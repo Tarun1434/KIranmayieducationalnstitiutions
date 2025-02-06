@@ -26,7 +26,7 @@ export function CourseOffered() {
     {
       id: 3,
       card_image:
-        'ttps://res.cloudinary.com/dsnjnciud/image/upload/v1737898660/stock-chart-rising-upward_u2vasf.jpg',
+        'https://res.cloudinary.com/dsnjnciud/image/upload/v1737898660/stock-chart-rising-upward_u2vasf.jpg',
       card_text: '"H.E.C" (HISTORY, ECONOMICS, CIVICS)',
     },
   ]
@@ -122,7 +122,7 @@ function Home() {
       <Marqueetag />
       <div className='backgroundimage container-fluid px-0'>
         {/* Carousel Section */}
-        <div className='row align-items-center g-4'>
+        <div className='row align-items-center'>
           <div className=''>
             <div className='border border-secondary rounded overflow-hidden shadow'>
               <Carousel
@@ -255,25 +255,28 @@ function Home() {
           </div>
         </div>
         {/*Our Acdamics */}
-         <div className='Our_academics'>
+        <div className='Our_academics'>
           <h1 className='acdamics_heading'>Our Academics</h1>
-          <div className='acdmics_image'>
-            <img
-              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819779/92557746_lrthit.jpg'
-              alt='...'
-              className='acdamics_image'
-            />
-            <p className='text_upon_the_image'>Intermediate</p>
-            <p className='text_after_the_hover'>See More</p>
-          </div>
-          <div className='acdmics_image'>
-            <img
-              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819736/the-hidden-benefits-of-earning-a-college-degree_momrww.jpg'
-              alt='...'
-              className='acdamics_image'
-            />
-            <p className='text_upon_the_image'>Degree</p>
-            <p className='text_after_the_hover'>See More</p>
+          <h2 className='acdamics_caption'>"Dream, learn, achieve."</h2>
+          <div className='d-flex flex-md-row flex-column justify-content-center'>
+            <div className='acdmics_image'>
+              <img
+                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819779/92557746_lrthit.jpg'
+                alt='...'
+                className='acdamics_image'
+              />
+              <p className='text_upon_the_image'>Intermediate</p>
+              <p className='text_after_the_hover'>See More</p>
+            </div>
+            <div className='acdmics_image'>
+              <img
+                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819736/the-hidden-benefits-of-earning-a-college-degree_momrww.jpg'
+                alt='...'
+                className='acdamics_image'
+              />
+              <p className='text_upon_the_image'>Degree</p>
+              <p className='text_after_the_hover'>See More</p>
+            </div>
           </div>
         </div>
         {/* Courses Offered Section */}
