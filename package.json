@@ -28,6 +28,7 @@
     "react-smooth-marquee": "^1.0.0",
     "react-text-marquee": "^1.0.1",
     "reactjs-popup": "^2.0.6",
+    "sass": "^1.84.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^4.2.4",
     "webpack": "^5.97.1"

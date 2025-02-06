@@ -19,11 +19,12 @@ dependencies:
   react-marquee-line: 1.0.1_react-dom@19.0.0+react@19.0.0
   react-responsive-carousel: 3.2.23
   react-router-dom: 7.1.1_react-dom@19.0.0+react@19.0.0
-  react-scripts: 5.0.1_react@19.0.0
+  react-scripts: 5.0.1_react@19.0.0+sass@1.84.0
   react-slick: 0.30.3_react-dom@19.0.0+react@19.0.0
   react-smooth-marquee: 1.0.0
   react-text-marquee: 1.0.1_react@19.0.0
   reactjs-popup: 2.0.6_react-dom@19.0.0+react@19.0.0
+  sass: 1.84.0
   slick-carousel: 1.8.1
   web-vitals: 4.2.4
   webpack: 5.97.1
@@ -2190,6 +2191,176 @@ packages:
       node: '>= 8'
     resolution:
       integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==
+  /@parcel/watcher-android-arm64/2.5.1:
+    cpu:
+      - arm64
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - android
+    resolution:
+      integrity: sha512-KF8+j9nNbUN8vzOFDpRMsaKBHZ/mcjEjMToVMJOhTozkDonQFFrRcfdLWn6yWKCmJKmdVxSgHiYvTCef4/qcBA==
+  /@parcel/watcher-darwin-arm64/2.5.1:
+    cpu:
+      - arm64
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - darwin
+    resolution:
+      integrity: sha512-eAzPv5osDmZyBhou8PoF4i6RQXAfeKL9tjb3QzYuccXFMQU0ruIc/POh30ePnaOyD1UXdlKguHBmsTs53tVoPw==
+  /@parcel/watcher-darwin-x64/2.5.1:
+    cpu:
+      - x64
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - darwin
+    resolution:
+      integrity: sha512-1ZXDthrnNmwv10A0/3AJNZ9JGlzrF82i3gNQcWOzd7nJ8aj+ILyW1MTxVk35Db0u91oD5Nlk9MBiujMlwmeXZg==
+  /@parcel/watcher-freebsd-x64/2.5.1:
+    cpu:
+      - x64
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - freebsd
+    resolution:
+      integrity: sha512-SI4eljM7Flp9yPuKi8W0ird8TI/JK6CSxju3NojVI6BjHsTyK7zxA9urjVjEKJ5MBYC+bLmMcbAWlZ+rFkLpJQ==
+  /@parcel/watcher-linux-arm-glibc/2.5.1:
+    cpu:
+      - arm
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - linux
+    resolution:
+      integrity: sha512-RCdZlEyTs8geyBkkcnPWvtXLY44BCeZKmGYRtSgtwwnHR4dxfHRG3gR99XdMEdQ7KeiDdasJwwvNSF5jKtDwdA==
+  /@parcel/watcher-linux-arm-musl/2.5.1:
+    cpu:
+      - arm
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - linux
+    resolution:
+      integrity: sha512-6E+m/Mm1t1yhB8X412stiKFG3XykmgdIOqhjWj+VL8oHkKABfu/gjFj8DvLrYVHSBNC+/u5PeNrujiSQ1zwd1Q==
+  /@parcel/watcher-linux-arm64-glibc/2.5.1:
+    cpu:
+      - arm64
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - linux
+    resolution:
+      integrity: sha512-LrGp+f02yU3BN9A+DGuY3v3bmnFUggAITBGriZHUREfNEzZh/GO06FF5u2kx8x+GBEUYfyTGamol4j3m9ANe8w==
+  /@parcel/watcher-linux-arm64-musl/2.5.1:
+    cpu:
+      - arm64
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - linux
+    resolution:
+      integrity: sha512-cFOjABi92pMYRXS7AcQv9/M1YuKRw8SZniCDw0ssQb/noPkRzA+HBDkwmyOJYp5wXcsTrhxO0zq1U11cK9jsFg==
+  /@parcel/watcher-linux-x64-glibc/2.5.1:
+    cpu:
+      - x64
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - linux
+    resolution:
+      integrity: sha512-GcESn8NZySmfwlTsIur+49yDqSny2IhPeZfXunQi48DMugKeZ7uy1FX83pO0X22sHntJ4Ub+9k34XQCX+oHt2A==
+  /@parcel/watcher-linux-x64-musl/2.5.1:
+    cpu:
+      - x64
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - linux
+    resolution:
+      integrity: sha512-n0E2EQbatQ3bXhcH2D1XIAANAcTZkQICBPVaxMeaCVBtOpBZpWJuf7LwyWPSBDITb7In8mqQgJ7gH8CILCURXg==
+  /@parcel/watcher-win32-arm64/2.5.1:
+    cpu:
+      - arm64
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - win32
+    resolution:
+      integrity: sha512-RFzklRvmc3PkjKjry3hLF9wD7ppR4AKcWNzH7kXR7GUe0Igb3Nz8fyPwtZCSquGrhU5HhUNDr/mKBqj7tqA2Vw==
+  /@parcel/watcher-win32-ia32/2.5.1:
+    cpu:
+      - ia32
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - win32
+    resolution:
+      integrity: sha512-c2KkcVN+NJmuA7CGlaGD1qJh1cLfDnQsHjE89E60vUEMlqduHGCdCLJCID5geFVM0dOtA3ZiIO8BoEQmzQVfpQ==
+  /@parcel/watcher-win32-x64/2.5.1:
+    cpu:
+      - x64
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    os:
+      - win32
+    resolution:
+      integrity: sha512-9lHBdJITeNR++EvSQVUcaZoWupyHfXe1jZvGZ06O/5MflPcuPLtEphScIBL+AiCWBO46tDSHzWyD0uDmmZqsgA==
+  /@parcel/watcher/2.5.1:
+    dependencies:
+      detect-libc: 1.0.3
+      is-glob: 4.0.3
+      micromatch: 4.0.8
+      node-addon-api: 7.1.1
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    optional: true
+    optionalDependencies:
+      '@parcel/watcher-android-arm64': 2.5.1
+      '@parcel/watcher-darwin-arm64': 2.5.1
+      '@parcel/watcher-darwin-x64': 2.5.1
+      '@parcel/watcher-freebsd-x64': 2.5.1
+      '@parcel/watcher-linux-arm-glibc': 2.5.1
+      '@parcel/watcher-linux-arm-musl': 2.5.1
+      '@parcel/watcher-linux-arm64-glibc': 2.5.1
+      '@parcel/watcher-linux-arm64-musl': 2.5.1
+      '@parcel/watcher-linux-x64-glibc': 2.5.1
+      '@parcel/watcher-linux-x64-musl': 2.5.1
+      '@parcel/watcher-win32-arm64': 2.5.1
+      '@parcel/watcher-win32-ia32': 2.5.1
+      '@parcel/watcher-win32-x64': 2.5.1
+    requiresBuild: true
+    resolution:
+      integrity: sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg==
   /@pkgjs/parseargs/0.11.0:
     dev: false
     engines:
@@ -4108,6 +4279,14 @@ packages:
       fsevents: 2.3.3
     resolution:
       integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==
+  /chokidar/4.0.3:
+    dependencies:
+      readdirp: 4.1.1
+    dev: false
+    engines:
+      node: '>= 14.16.0'
+    resolution:
+      integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==
   /chrome-trace-event/1.0.4:
     dev: false
     engines:
@@ -6455,6 +6634,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-bc4NBHqOqSfRW7POMkHd51LvClaeMXpm8dx0e8oE2GORbq5aRK7Bxl4FyzVLdGtLmvLKL7BTDBG5ACQm4HWjTA==
+  /immutable/5.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-P8IdPQHq3lA1xVeBRi5VPqUm5HDgKnx0Ru51wZz5mjxHr5n3RWhjIpOFU7ybkUxfB+5IToy+OLaHYDBIWsv+uw==
   /import-fresh/3.3.0:
     dependencies:
       parent-module: 1.0.1
@@ -8150,6 +8333,11 @@ packages:
     dev: false
     resolution:
       integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==
+  /node-addon-api/7.1.1:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==
   /node-forge/1.3.1:
     dev: false
     engines:
@@ -9784,7 +9972,7 @@ packages:
         optional: true
     resolution:
       integrity: sha512-39sXJkftkKWRZ2oJtHhCxmoCrBCULr/HAH4IT5DHlgu/Q0FCPV0S4Lx+abjDTx/74xoZzNYDYbOZWlJjruyuDQ==
-  /react-scripts/5.0.1_react@19.0.0:
+  /react-scripts/5.0.1_react@19.0.0+sass@1.84.0:
     dependencies:
       '@babel/core': 7.26.0
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.15_3975f900e28c8e1d01d959525b71075d
@@ -9824,7 +10012,7 @@ packages:
       react-refresh: 0.11.0
       resolve: 1.22.10
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0_webpack@5.97.1
+      sass-loader: 12.6.0_sass@1.84.0+webpack@5.97.1
       semver: 7.6.3
       source-map-loader: 3.0.2_webpack@5.97.1
       style-loader: 3.3.4_webpack@5.97.1
@@ -9842,6 +10030,7 @@ packages:
       fsevents: 2.3.3
     peerDependencies:
       react: '>= 16'
+      sass: '*'
       typescript: ^3.2.1 || ^4
     peerDependenciesMeta:
       typescript:
@@ -9944,6 +10133,12 @@ packages:
       node: '>=8.10.0'
     resolution:
       integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
+  /readdirp/4.1.1:
+    dev: false
+    engines:
+      node: '>= 14.18.0'
+    resolution:
+      integrity: sha512-h80JrZu/MHUZCyHu5ciuoI0+WxsCxzxJTILn6Fs8rxSnFPh+UVHYfeIxK1nVGugMqkfC4vJcBOYbkfkwYK0+gw==
   /recursive-readdir/2.2.3:
     dependencies:
       minimatch: 3.1.2
@@ -10230,10 +10425,11 @@ packages:
     dev: false
     resolution:
       integrity: sha512-ZRwKbh/eQ6w9vmTjkuG0Ioi3HBwPFce0O+v//ve+aOq1oeCy7jMV2qzzAlpsNuqpqCBjjriM1lbtZbF/Q8jVyA==
-  /sass-loader/12.6.0_webpack@5.97.1:
+  /sass-loader/12.6.0_sass@1.84.0+webpack@5.97.1:
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
+      sass: 1.84.0
       webpack: 5.97.1
     dev: false
     engines:
@@ -10255,6 +10451,19 @@ packages:
         optional: true
     resolution:
       integrity: sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA==
+  /sass/1.84.0:
+    dependencies:
+      chokidar: 4.0.3
+      immutable: 5.0.3
+      source-map-js: 1.2.1
+    dev: false
+    engines:
+      node: '>=14.0.0'
+    hasBin: true
+    optionalDependencies:
+      '@parcel/watcher': 2.5.1
+    resolution:
+      integrity: sha512-XDAbhEPJRxi7H0SxrnOpiXFQoUJHwkR2u3Zc4el+fK/Tt5Hpzw5kkQ59qVDfvdaUq6gCrEZIbySFBM2T9DNKHg==
   /sax/1.2.4:
     dev: false
     resolution:
@@ -12102,6 +12311,7 @@ specifiers:
   react-smooth-marquee: ^1.0.0
   react-text-marquee: ^1.0.1
   reactjs-popup: ^2.0.6
+  sass: ^1.84.0
   slick-carousel: ^1.8.1
   tailwindcss: ^4.0.0
   web-vitals: ^4.2.4

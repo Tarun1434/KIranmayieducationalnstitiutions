@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import './index.scss'
 import Header from '../Header'
 import {NavLink} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -147,34 +148,58 @@ function Home() {
             </div>
           </div>
         </div>
-
+        {/* Our Academics*/}
         <div className='Our_academics'>
           <h1 className='acdamics_heading'>Our Academics</h1>
           <h2 className='acdamics_caption'>"Dream, learn, achieve."</h2>
           <div className='d-flex flex-md-row flex-column justify-content-center'>
+            <NavLink to='/courses'>
+              <div className='acdmics_image'>
+                <img
+                  src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819779/92557746_lrthit.jpg'
+                  alt='...'
+                  className='acdamics_image'
+                />
+                <p className='text_upon_the_image'>Intermediate</p>
+                <p className='text_after_the_hover'>See More</p>
+              </div>
+            </NavLink>
+            <NavLink to='/courses'>
+              <div className='acdmics_image'>
+                <img
+                  src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819736/the-hidden-benefits-of-earning-a-college-degree_momrww.jpg'
+                  alt='...'
+                  className='acdamics_image'
+                />
+                <p className='text_upon_the_image'>Degree</p>
+                <p className='text_after_the_hover'>See More</p>
+              </div>
+            </NavLink>
+          </div>
+        </div>
 
-         <NavLink to='/courses' >
-            <div className='acdmics_image'>
-              <img
-                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819779/92557746_lrthit.jpg'
-                alt='...'
-                className='acdamics_image'
-              />
-              <p className='text_upon_the_image'>Intermediate</p>
-              <p className='text_after_the_hover'>See More</p>
-            </div>
-            </NavLink>
-    <NavLink to='/courses' >
-            <div className='acdmics_image'>
-              <img
-                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819736/the-hidden-benefits-of-earning-a-college-degree_momrww.jpg'
-                alt='...'
-                className='acdamics_image'
-              />
-              <p className='text_upon_the_image'>Degree</p>
-              <p className='text_after_the_hover'>See More</p>
-            </div>
-            </NavLink>
+        {/* Origin and history */}
+        <div className='origin_and_history'>
+          <div className='images'>
+            <img
+              class='framed'
+              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737631716/kinamyi_image_clvgdt.jpg'
+              alt='randomimage'
+            />
+          </div>
+          <div className='origin_text'>
+            <h3 className='headin_o'>ORIGIN AND HISTORY</h3>
+            <h1 className='headingss'>
+              Andhra Loyola College is a Jesuit College in Vijayawada, the
+              second biggest city in Andhra Pradesh.{' '}
+            </h1>
+            <p className='para_o'>
+              ALC is the realization of the long cherished dreams of the Telugu
+              people, in general, and the Telugu Catholics, in particular, for a
+              Jesuit College as the first Telugu Catholics owe their Catholic
+              Faith to the Jesuit Missionaries of Carnatic Mission of the early
+              18th Century.
+            </p>
           </div>
         </div>
       </div>
