@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import Header from '../Header'
-
+import {NavLink} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Carousel} from 'react-bootstrap'
 import 'animate.css/animate.min.css'
@@ -11,20 +11,20 @@ import Marqueetag from '../Marqueetag'
 
 export function CourseOffered() {
   const card_details = [
-    { 
-       id : 1,
+    {
+      id: 1,
       card_image:
         'https://res.cloudinary.com/dsnjnciud/image/upload/v1737897280/33E486F5F3B7E76C95CC9DC962D1AB7D_uwaka5.jpg',
       card_text: '"M.P.C" (MATHS ,PHYSICS ,CHEMISTRY)',
     },
     {
-       id : 2,
+      id: 2,
       card_image:
         'https://res.cloudinary.com/dsnjnciud/image/upload/v1737897306/this-is-what-we-are-testing-today-biology-lesson-science-experiments-in-bilogy-laboratory-little-girls-in-school-lab-biology-education-little-scientist-work-with-microscope-chemistry-research-2B8M3YN_lujeup.jpg',
       card_text: '"Bi.P.C" (BIOLOGY ,PHYSICS ,CHEMISTRY)',
     },
     {
-       id : 3,
+      id: 3,
       card_image:
         'ttps://res.cloudinary.com/dsnjnciud/image/upload/v1737898660/stock-chart-rising-upward_u2vasf.jpg',
       card_text: '"H.E.C" (HISTORY, ECONOMICS, CIVICS)',
@@ -34,14 +34,13 @@ export function CourseOffered() {
     <div className='courses_offered d-flex flex-column justify-content-center align-items-center'>
       <div className='for_intermediate'>
         <h1 className='InterMeduiate'>Intermediate </h1>
-        <div className='card_ss d-flex flex-column flex-md-row' key={card_details.id}>
+        <div
+          className='card_ss d-flex flex-column flex-md-row'
+          key={card_details.id}
+        >
           {card_details.map(cards => (
             <div className='card'>
-              <img
-                src={cards.card_image}
-                className='card-img-top'
-                alt='...'
-              />
+              <img src={cards.card_image} className='card-img-top' alt='...' />
               <div className='card_body text-black'>
                 <p className='card-text'> {cards.card_text} </p>
               </div>
@@ -161,26 +160,30 @@ function Home() {
         {/* Infrastructure Section */}
         <div className='infrastuctre'>
           <div className='d-flex flex-column flex-md-row justify-content-center'>
-            <div className='simlarcards'>
-              <img
-                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737788718/university-robotics-lecture-black-teacher-explain-engineering-to-students-she-uses_u0rmji.jpg'
-                className='infa_img'
-                alt='infrastructure'
-              />
-              <div className='text_content_infra'>
-                <h1 className='heading_infra'>Infrastructure</h1>
+            <NavLink to='/departments'>
+              <div className='simlarcards'>
+                <img
+                  src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737788718/university-robotics-lecture-black-teacher-explain-engineering-to-students-she-uses_u0rmji.jpg'
+                  className='infa_img'
+                  alt='infrastructure'
+                />
+                <div className='text_content_infra'>
+                  <h1 className='heading_infra'>Infrastructure</h1>
+                </div>
               </div>
-            </div>
-            <div className='simlarcards'>
-              <img
-                src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737788875/technology-in-education_u0qi6t.jpg'
-                className='infa_img'
-                alt='infrastructure'
-              />
-              <div className='text_content_infra'>
-                <h1 className='heading_infra'>Qualified Faculty</h1>
+            </NavLink>
+            <NavLink to='/management'>
+              <div className='simlarcards'>
+                <img
+                  src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737788875/technology-in-education_u0qi6t.jpg'
+                  className='infa_img'
+                  alt='infrastructure'
+                />
+                <div className='text_content_infra'>
+                  <h1 className='heading_infra'>Qualified Faculty</h1>
+                </div>
               </div>
-            </div>
+            </NavLink>
             <div className='simlarcards'>
               <img
                 src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737788718/teacher-explaining-science-concept-class_768772-1200_pufx0j.jpg'
@@ -251,7 +254,28 @@ function Home() {
             </div>
           </div>
         </div>
-
+        {/*Our Acdamics */}
+         <div className='Our_academics'>
+          <h1 className='acdamics_heading'>Our Academics</h1>
+          <div className='acdmics_image'>
+            <img
+              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819779/92557746_lrthit.jpg'
+              alt='...'
+              className='acdamics_image'
+            />
+            <p className='text_upon_the_image'>Intermediate</p>
+            <p className='text_after_the_hover'>See More</p>
+          </div>
+          <div className='acdmics_image'>
+            <img
+              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1738819736/the-hidden-benefits-of-earning-a-college-degree_momrww.jpg'
+              alt='...'
+              className='acdamics_image'
+            />
+            <p className='text_upon_the_image'>Degree</p>
+            <p className='text_after_the_hover'>See More</p>
+          </div>
+        </div>
         {/* Courses Offered Section */}
         <CourseOffered />
       </div>
