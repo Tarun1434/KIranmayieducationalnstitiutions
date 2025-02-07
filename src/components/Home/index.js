@@ -12,18 +12,18 @@ import Marqueetag from '../Marqueetag'
 
 function Home() {
   const images = [
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1692895431/photo-1616036740257-9449ea1f6605_ix1kz7.jpg',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1692982544/b1ef04ad624ffe78568677bd55318950_lsbzea.jpg',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1690817529/black_shirt_oodagw.jpg',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1691755757/Yqv6GA_akll5d.png',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1697442054/white___fhct9u.jpg',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1710071782/1_qB323ch7NzZNmOj_nM70Jw_aupnaq.png',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1692895431/photo-1616036740257-9449ea1f6605_ix1kz7.jpg',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1692982544/b1ef04ad624ffe78568677bd55318950_lsbzea.jpg',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1690817529/black_shirt_oodagw.jpg',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1691755757/Yqv6GA_akll5d.png',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1697442054/white___fhct9u.jpg',
-    'https://res.cloudinary.com/dsnjnciud/image/upload/v1710071782/1_qB323ch7NzZNmOj_nM70Jw_aupnaq.png',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1738912335/students--excel_4844_prwrhm.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1738912220/class1-big_anpnez.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1738912652/galleryImg06_zfomm9.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1738912218/29c7ab_2b6e0190064d4782922f37c29314b9ea_mv2_axs8sj.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1737788718/teacher-explaining-science-concept-class_768772-1200_pufx0j.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1738912694/galleryImg04_vsipzl.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1737788590/mobile-al-usa-march-29th-600nw-2308740157_yyq1h9.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1737959768/indian-school-chemistry-lab-research-students-working-class-together-KX38BN_e3k4rk.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1738912218/77061_20_42_jyuidg.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1737959740/asian-college-student-working-on-botany_cfur7j.jpg',
+     'https://res.cloudinary.com/dsnjnciud/image/upload/v1738912218/29c7ab_2b6e0190064d4782922f37c29314b9ea_mv2_axs8sj.jpg', 
+     'https://res.cloudinary.com/dsnjnciud/image/upload/v1738912694/galleryImg04_vsipzl.jpg',
   ]
   return (
     <>

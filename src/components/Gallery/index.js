@@ -16,8 +16,6 @@ function Gallery() {
     'https://res.cloudinary.com/dsnjnciud/image/upload/v1737959768/indian-school-chemistry-lab-research-students-working-class-together-KX38BN_e3k4rk.jpg',
     'https://res.cloudinary.com/dsnjnciud/image/upload/v1738912218/77061_20_42_jyuidg.jpg',
     'https://res.cloudinary.com/dsnjnciud/image/upload/v1737959740/asian-college-student-working-on-botany_cfur7j.jpg',
-  
-  
   ]
 
   return (
