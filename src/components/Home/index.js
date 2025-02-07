@@ -196,7 +196,7 @@ function Home() {
         <div className='origin_and_history'>
           <div className='images'>
             <img
-              class='framed'
+              className='framed'
               src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737631716/kinamyi_image_clvgdt.jpg'
               alt='randomimage'
             />
@@ -228,17 +228,19 @@ function Home() {
           <h2 className='heading_caption text-center'>
             "Innovation Through Education"
           </h2>
-          <div className='marquee'>
-            {images.concat(images).map((img, index) => (
-              <div key={index} className='marquee-item'>
-                <img
-                  src={img}
-                  alt={`marquee-img-${index}`}
-                  className='img-fluid'
-                />
-              </div>
-            ))}
-          </div>
+          <NavLink to='/gallery'>
+            <div className='marquee'>
+              {images.concat(images).map((img, index) => (
+                <div key={index} className='marquee-item'>
+                  <img
+                    src={img}
+                    alt={`marquee-img-${index}`}
+                    className='img-fluid'
+                  />
+                </div>
+              ))}
+            </div>
+          </NavLink>
         </div>
       </div>
       <Footer />
