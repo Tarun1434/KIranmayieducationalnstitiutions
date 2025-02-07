@@ -11,6 +11,20 @@ import Footer from '../Footer'
 import Marqueetag from '../Marqueetag'
 
 function Home() {
+  const images = [
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1692895431/photo-1616036740257-9449ea1f6605_ix1kz7.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1692982544/b1ef04ad624ffe78568677bd55318950_lsbzea.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1690817529/black_shirt_oodagw.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1691755757/Yqv6GA_akll5d.png',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1697442054/white___fhct9u.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1710071782/1_qB323ch7NzZNmOj_nM70Jw_aupnaq.png',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1692895431/photo-1616036740257-9449ea1f6605_ix1kz7.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1692982544/b1ef04ad624ffe78568677bd55318950_lsbzea.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1690817529/black_shirt_oodagw.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1691755757/Yqv6GA_akll5d.png',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1697442054/white___fhct9u.jpg',
+    'https://res.cloudinary.com/dsnjnciud/image/upload/v1710071782/1_qB323ch7NzZNmOj_nM70Jw_aupnaq.png',
+  ]
   return (
     <>
       <Header />
@@ -190,16 +204,40 @@ function Home() {
           <div className='origin_text'>
             <h3 className='headin_o'>ORIGIN AND HISTORY</h3>
             <h1 className='headingss'>
-              Andhra Loyola College is a Jesuit College in Vijayawada, the
-              second biggest city in Andhra Pradesh.{' '}
+              Kiranmayi Degree College is a distinguished educational
+              institution located in Pathapatnam, Andhra Pradesh.
             </h1>
             <p className='para_o'>
-              ALC is the realization of the long cherished dreams of the Telugu
-              people, in general, and the Telugu Catholics, in particular, for a
-              Jesuit College as the first Telugu Catholics owe their Catholic
-              Faith to the Jesuit Missionaries of Carnatic Mission of the early
-              18th Century.
+              KDC is With a strong commitment to academic excellence and
+              holistic development, the college has become a beacon of learning
+              in the region. Affiliated with Ambedkar University, Kiranmayi
+              Degree College offers a diverse array of undergraduate programs in
+              arts and sciences, catering to the intellectual and personal
+              growth of its students{' '}
+              <NavLink to='/about'>Read more....</NavLink>
             </p>
+            <div className='button'>
+              <button className='origin_button'>Explore More</button>
+            </div>
+          </div>
+        </div>
+        {/*Gallery */}
+
+        <div className='marquee-container align-items-center'>
+          <h2 className='heading_gallery text-center'>Gallery</h2>
+          <h2 className='heading_caption text-center'>
+            "Innovation Through Education"
+          </h2>
+          <div className='marquee'>
+            {images.concat(images).map((img, index) => (
+              <div key={index} className='marquee-item'>
+                <img
+                  src={img}
+                  alt={`marquee-img-${index}`}
+                  className='img-fluid'
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -7,57 +7,89 @@
 body {
   background-color: var(--bgColor);
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
 .headin_o {
   color: chocolate;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+
+  @media (max-width: 576px) {
+    font-size: 1.5rem;
+    margin: 20px;
+  }
 }
-.headingss{
-  font-size: 28px;
+
+.headingss {
+  font-size: 1.75rem;
   font-weight: 900;
-  
+  text-align: center;
+
+  @media (max-width: 576px) {
+    font-size: 1.3rem;
+  }
 }
+
 .origin_and_history {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 100px;
+  margin: 50px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
 
   @media (min-width: 768px) {
-    flex-direction: row; /* Align content side by side on medium screens and above */
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
 
 .images {
   flex: 1;
-  margin: 10px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    margin-right: 20px;
+  }
 
   .framed {
     width: 100%;
-    height: 400px;
+    max-height: 300px;
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 10px;
     box-shadow:
-      -50px -50px 0 -40px var(--red),
-      50px 50px 0 -40px var(--red);
+      -30px -30px 0 -20px var(--red),
+      30px 30px 0 -20px var(--red);
+
+    @media (max-width: 576px) {
+      max-height: 250px;
+    }
   }
 }
 
 .origin_text {
   flex: 1;
-  margin: 20px;
   text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 
   h1.headin_o,
   h2.headingss {
     color: var(--heading-color);
-    font-size: 2rem; /* Default font size */
+    font-size: 2rem;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
     @media (max-width: 576px) {
-      font-size: 1.5rem; /* Smaller font size on mobile */
+      font-size: 1.5rem;
     }
   }
 
@@ -65,9 +97,11 @@ body {
     color: var(--para-color);
     font-size: 1.2rem;
     line-height: 1.6;
+    padding: 0 10px;
 
     @media (max-width: 576px) {
-      font-size: 1rem; /* Smaller font size on mobile */
+      font-size: 1rem;
+      padding: 0 5px;
     }
   }
 }
