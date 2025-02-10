@@ -59,6 +59,18 @@ function Footer() {
                 <span>Courses offered</span>
               </NavLink>
             </li>
+            <li className='list-item'>
+              <BsChevronRight />
+              <NavLink to='/management'>
+                <span>Faculty</span>
+              </NavLink>
+            </li>
+            <li className='list-item'>
+              <BsChevronRight />
+              <NavLink to='/gallery'>
+                <span>Gallery</span>
+              </NavLink>
+            </li>
           </ul>
         </div>
         <div className='infrastrucuture_section'>
