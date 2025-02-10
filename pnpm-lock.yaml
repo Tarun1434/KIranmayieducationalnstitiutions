@@ -3,7 +3,7 @@ dependencies:
   '@fortawesome/fontawesome-svg-core': 6.7.2
   '@fortawesome/free-brands-svg-icons': 6.7.2
   '@fortawesome/free-solid-svg-icons': 6.7.2
-  '@fortawesome/react-fontawesome': 0.2.2_994bde9539356dd9b3251d54db4ed5d2
+  '@fortawesome/react-fontawesome': 0.2.2_15142dc718b4caae7b555ad8eddd7695
   '@popperjs/core': 2.11.8
   '@tailwindcss/postcss': 4.0.0
   animate.css: 4.1.1
@@ -11,19 +11,19 @@ dependencies:
   bootstrap-icons: 1.11.3
   cra-template: 1.2.0
   flowbite: 3.0.0
-  flowbite-react: 0.10.2_079409eca52aeb9c63371b5bcd2ff892
-  react: 19.0.0
-  react-bootstrap: 2.10.8_react-dom@19.0.0+react@19.0.0
-  react-dom: 19.0.0_react@19.0.0
-  react-icons: 5.4.0_react@19.0.0
-  react-marquee-line: 1.0.1_react-dom@19.0.0+react@19.0.0
+  flowbite-react: 0.10.2_9aa592cb5497da0437041f02d19bab08
+  react: 18.3.1
+  react-bootstrap: 2.10.8_react-dom@18.3.1+react@18.3.1
+  react-dom: 18.3.1_react@18.3.1
+  react-icons: 5.4.0_react@18.3.1
+  react-marquee-line: 1.0.1_react-dom@18.3.1+react@18.3.1
   react-responsive-carousel: 3.2.23
-  react-router-dom: 7.1.1_react-dom@19.0.0+react@19.0.0
-  react-scripts: 5.0.1_react@19.0.0+sass@1.84.0
-  react-slick: 0.30.3_react-dom@19.0.0+react@19.0.0
+  react-router-dom: 7.1.1_react-dom@18.3.1+react@18.3.1
+  react-scripts: 5.0.1_react@18.3.1+sass@1.84.0
+  react-slick: 0.30.3_react-dom@18.3.1+react@18.3.1
   react-smooth-marquee: 1.0.0
-  react-text-marquee: 1.0.1_react@19.0.0
-  reactjs-popup: 2.0.6_react-dom@19.0.0+react@19.0.0
+  react-text-marquee: 1.0.1_react@18.3.1
+  reactjs-popup: 2.0.6_react-dom@18.3.1+react@18.3.1
   sass: 1.84.0
   slick-carousel: 1.8.1
   web-vitals: 4.2.4
@@ -1753,23 +1753,23 @@ packages:
     dev: false
     resolution:
       integrity: sha512-umqzocjDgNRGTuO7Q8CU32dkHkECqI8ZdMZ5Swb6QAM0t5rnlrN3lGo1hdpscRd3WS8T6DKYK4ephgIH9iRh3w==
-  /@floating-ui/react-dom/2.1.2_react-dom@19.0.0+react@19.0.0:
+  /@floating-ui/react-dom/2.1.2_react-dom@18.3.1+react@18.3.1:
     dependencies:
       '@floating-ui/dom': 1.6.13
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
     dev: false
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     resolution:
       integrity: sha512-06okr5cgPzMNBy+Ycse2A6udMi4bqwW/zgBF/rwjcNqWkyr82Mcg8b0vjX8OJpZFy/FKjJmw6wV7t44kK6kW7A==
-  /@floating-ui/react/0.26.21_react-dom@19.0.0+react@19.0.0:
+  /@floating-ui/react/0.26.21_react-dom@18.3.1+react@18.3.1:
     dependencies:
-      '@floating-ui/react-dom': 2.1.2_react-dom@19.0.0+react@19.0.0
+      '@floating-ui/react-dom': 2.1.2_react-dom@18.3.1+react@18.3.1
       '@floating-ui/utils': 0.2.9
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
       tabbable: 6.2.0
     dev: false
     peerDependencies:
@@ -1817,11 +1817,11 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-GsBrnOzU8uj0LECDfD5zomZJIjrPhIlWU82AHwa2s40FKH+kcxQaBvBo3Z4TxyZHIyX8XTDxsyA33/Vx9eFuQA==
-  /@fortawesome/react-fontawesome/0.2.2_994bde9539356dd9b3251d54db4ed5d2:
+  /@fortawesome/react-fontawesome/0.2.2_15142dc718b4caae7b555ad8eddd7695:
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.7.2
       prop-types: 15.8.1
-      react: 19.0.0
+      react: 18.3.1
     dev: false
     peerDependencies:
       '@fortawesome/fontawesome-svg-core': ~1 || ~6
@@ -2400,10 +2400,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
-  /@react-aria/ssr/3.9.7_react@19.0.0:
+  /@react-aria/ssr/3.9.7_react@18.3.1:
     dependencies:
       '@swc/helpers': 0.5.15
-      react: 19.0.0
+      react: 18.3.1
     dev: false
     engines:
       node: '>= 12'
@@ -2411,36 +2411,36 @@ packages:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
     resolution:
       integrity: sha512-GQygZaGlmYjmYM+tiNBA5C6acmiDWF52Nqd40bBp0Znk4M4hP+LTmI0lpI1BuKMw45T8RIhrAsICIfKwZvi2Gg==
-  /@restart/hooks/0.4.16_react@19.0.0:
+  /@restart/hooks/0.4.16_react@18.3.1:
     dependencies:
       dequal: 2.0.3
-      react: 19.0.0
+      react: 18.3.1
     dev: false
     peerDependencies:
       react: '>=16.8.0'
     resolution:
       integrity: sha512-f7aCv7c+nU/3mF7NWLtVVr0Ra80RqsO89hO72r+Y/nvQr5+q0UFGkocElTH6MJApvReVh6JHUFYn2cw1WdHF3w==
-  /@restart/hooks/0.5.1_react@19.0.0:
+  /@restart/hooks/0.5.1_react@18.3.1:
     dependencies:
       dequal: 2.0.3
-      react: 19.0.0
+      react: 18.3.1
     dev: false
     peerDependencies:
       react: '>=16.8.0'
     resolution:
       integrity: sha512-EMoH04NHS1pbn07iLTjIjgttuqb7qu4+/EyhAx27MHpoENcB2ZdSsLTNxmKD+WEPnZigo62Qc8zjGnNxoSE/5Q==
-  /@restart/ui/1.9.3_react-dom@19.0.0+react@19.0.0:
+  /@restart/ui/1.9.3_react-dom@18.3.1+react@18.3.1:
     dependencies:
       '@babel/runtime': 7.26.0
       '@popperjs/core': 2.11.8
-      '@react-aria/ssr': 3.9.7_react@19.0.0
-      '@restart/hooks': 0.5.1_react@19.0.0
+      '@react-aria/ssr': 3.9.7_react@18.3.1
+      '@restart/hooks': 0.5.1_react@18.3.1
       '@types/warning': 3.0.3
       dequal: 2.0.3
       dom-helpers: 5.2.1
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
-      uncontrollable: 8.0.4_react@19.0.0
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
+      uncontrollable: 8.0.4_react@18.3.1
       warning: 4.0.3
     dev: false
     peerDependencies:
@@ -5981,16 +5981,16 @@ packages:
     dev: false
     resolution:
       integrity: sha512-6Nfm0MCVX3mpaR7YSCjmEO2GO8CDt6CX8ZpQnGdeu03WUCWtEPQ/uy0PUiNtIJjJZWnX0Cm3H55MOhbD1g+E/g==
-  /flowbite-react/0.10.2_079409eca52aeb9c63371b5bcd2ff892:
+  /flowbite-react/0.10.2_9aa592cb5497da0437041f02d19bab08:
     dependencies:
       '@floating-ui/core': 1.6.6
-      '@floating-ui/react': 0.26.21_react-dom@19.0.0+react@19.0.0
+      '@floating-ui/react': 0.26.21_react-dom@18.3.1+react@18.3.1
       classnames: 2.5.1
       debounce: 2.1.0
       flowbite: 2.5.1
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
-      react-icons: 5.2.1_react@19.0.0
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
+      react-icons: 5.2.1_react@18.3.1
       tailwind-merge: 2.4.0
       tailwindcss: 3.4.17
     dev: false
@@ -9629,9 +9629,9 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==
-  /prop-types-extra/1.1.1_react@19.0.0:
+  /prop-types-extra/1.1.1_react@18.3.1:
     dependencies:
-      react: 19.0.0
+      react: 18.3.1
       react-is: 16.13.1
       warning: 4.0.3
     dev: false
@@ -9736,22 +9736,22 @@ packages:
       node: '>=14'
     resolution:
       integrity: sha512-sZ41cxiU5llIB003yxxQBYrARBqe0repqPTTYBTmMqTz9szeBbE37BehCE891NZsmdZqqP+xWKdT3eo3vOzN8w==
-  /react-bootstrap/2.10.8_react-dom@19.0.0+react@19.0.0:
+  /react-bootstrap/2.10.8_react-dom@18.3.1+react@18.3.1:
     dependencies:
       '@babel/runtime': 7.26.0
-      '@restart/hooks': 0.4.16_react@19.0.0
-      '@restart/ui': 1.9.3_react-dom@19.0.0+react@19.0.0
+      '@restart/hooks': 0.4.16_react@18.3.1
+      '@restart/ui': 1.9.3_react-dom@18.3.1+react@18.3.1
       '@types/prop-types': 15.7.14
       '@types/react-transition-group': 4.4.12
       classnames: 2.5.1
       dom-helpers: 5.2.1
       invariant: 2.2.4
       prop-types: 15.8.1
-      prop-types-extra: 1.1.1_react@19.0.0
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
-      react-transition-group: 4.4.5_react-dom@19.0.0+react@19.0.0
-      uncontrollable: 7.2.1_react@19.0.0
+      prop-types-extra: 1.1.1_react@18.3.1
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
+      react-transition-group: 4.4.5_react-dom@18.3.1+react@18.3.1
+      uncontrollable: 7.2.1_react@18.3.1
       warning: 4.0.3
     dev: false
     peerDependencies:
@@ -9797,15 +9797,16 @@ packages:
       webpack: '*'
     resolution:
       integrity: sha512-84Ivxmr17KjUupyqzFode6xKhjwuEJDROWKJy/BthkL7Wn6NJ8h4WE6k/exAv6ImS+0oZLRRW5j/aINMHyeGeQ==
-  /react-dom/19.0.0_react@19.0.0:
+  /react-dom/18.3.1_react@18.3.1:
     dependencies:
-      react: 19.0.0
-      scheduler: 0.25.0
+      loose-envify: 1.4.0
+      react: 18.3.1
+      scheduler: 0.23.2
     dev: false
     peerDependencies:
-      react: ^19.0.0
+      react: ^18.3.1
     resolution:
-      integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==
+      integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==
   /react-easy-swipe/0.0.21:
     dependencies:
       prop-types: 15.8.1
@@ -9818,17 +9819,17 @@ packages:
     dev: false
     resolution:
       integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
-  /react-icons/5.2.1_react@19.0.0:
+  /react-icons/5.2.1_react@18.3.1:
     dependencies:
-      react: 19.0.0
+      react: 18.3.1
     dev: false
     peerDependencies:
       react: '*'
     resolution:
       integrity: sha512-zdbW5GstTzXaVKvGSyTaBalt7HSfuK5ovrzlpyiWHAFXndXTdd/1hdDHI4xBM1Mn7YriT6aqESucFl9kEXzrdw==
-  /react-icons/5.4.0_react@19.0.0:
+  /react-icons/5.4.0_react@18.3.1:
     dependencies:
-      react: 19.0.0
+      react: 18.3.1
     dev: false
     peerDependencies:
       react: '*'
@@ -9850,10 +9851,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
-  /react-marquee-line/1.0.1_react-dom@19.0.0+react@19.0.0:
+  /react-marquee-line/1.0.1_react-dom@18.3.1+react@18.3.1:
     dependencies:
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
     dev: false
     peerDependencies:
       prop-types: ^15.7.2
@@ -9875,11 +9876,11 @@ packages:
     dev: false
     resolution:
       integrity: sha512-pqJLsBaKHWJhw/ItODgbVoziR2z4lpcJg+YwmRlSk4rKH32VE633mAtZZ9kDXjy4wFO+pgUZmDKPsPe1fPmHCg==
-  /react-router-dom/7.1.1_react-dom@19.0.0+react@19.0.0:
+  /react-router-dom/7.1.1_react-dom@18.3.1+react@18.3.1:
     dependencies:
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
-      react-router: 7.1.1_react-dom@19.0.0+react@19.0.0
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
+      react-router: 7.1.1_react-dom@18.3.1+react@18.3.1
     dev: false
     engines:
       node: '>=20.0.0'
@@ -9888,12 +9889,12 @@ packages:
       react-dom: '>=18'
     resolution:
       integrity: sha512-vSrQHWlJ5DCfyrhgo0k6zViOe9ToK8uT5XGSmnuC2R3/g261IdIMpZVqfjD6vWSXdnf5Czs4VA/V60oVR6/jnA==
-  /react-router/7.1.1_react-dom@19.0.0+react@19.0.0:
+  /react-router/7.1.1_react-dom@18.3.1+react@18.3.1:
     dependencies:
       '@types/cookie': 0.6.0
       cookie: 1.0.2
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
       set-cookie-parser: 2.7.1
       turbo-stream: 2.4.0
     dev: false
@@ -9907,7 +9908,7 @@ packages:
         optional: true
     resolution:
       integrity: sha512-39sXJkftkKWRZ2oJtHhCxmoCrBCULr/HAH4IT5DHlgu/Q0FCPV0S4Lx+abjDTx/74xoZzNYDYbOZWlJjruyuDQ==
-  /react-scripts/5.0.1_react@19.0.0+sass@1.84.0:
+  /react-scripts/5.0.1_react@18.3.1+sass@1.84.0:
     dependencies:
       '@babel/core': 7.26.0
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.15_3975f900e28c8e1d01d959525b71075d
@@ -9941,7 +9942,7 @@ packages:
       postcss-normalize: 10.0.1_7d533fa61ad7f16d77e166c15115ea6c
       postcss-preset-env: 7.8.3_postcss@8.4.49
       prompts: 2.4.2
-      react: 19.0.0
+      react: 18.3.1
       react-app-polyfill: 3.0.0
       react-dev-utils: 12.0.1_eslint@8.57.1+webpack@5.97.1
       react-refresh: 0.11.0
@@ -9972,14 +9973,14 @@ packages:
         optional: true
     resolution:
       integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==
-  /react-slick/0.30.3_react-dom@19.0.0+react@19.0.0:
+  /react-slick/0.30.3_react-dom@18.3.1+react@18.3.1:
     dependencies:
       classnames: 2.5.1
       enquire.js: 2.1.6
       json2mq: 0.2.0
       lodash.debounce: 4.0.8
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
       resize-observer-polyfill: 1.5.1
     dev: false
     peerDependencies:
@@ -9991,39 +9992,41 @@ packages:
     dev: false
     resolution:
       integrity: sha512-XRKFZN8IzcI99WJwxLDIajVnWWm9Hf4nb2sRQUkxP3D/dAYKn9A0BwuXKBk0E+3ZaTaRh1tMRwpJWltIUnqqww==
-  /react-text-marquee/1.0.1_react@19.0.0:
+  /react-text-marquee/1.0.1_react@18.3.1:
     dependencies:
       prop-types: 15.8.1
-      react: 19.0.0
+      react: 18.3.1
     dev: false
     peerDependencies:
       react: ^15.0.1
     resolution:
       integrity: sha512-kOOfas8PS1jl4WP5nSmDCOLsMQQvMAIqi5g+MkHP/hI8xT2OCVxs5mRqBJa8Yg2XkNBILimao5TjjfkmytPGlg==
-  /react-transition-group/4.4.5_react-dom@19.0.0+react@19.0.0:
+  /react-transition-group/4.4.5_react-dom@18.3.1+react@18.3.1:
     dependencies:
       '@babel/runtime': 7.26.0
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
     dev: false
     peerDependencies:
       react: '>=16.6.0'
       react-dom: '>=16.6.0'
     resolution:
       integrity: sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==
-  /react/19.0.0:
+  /react/18.3.1:
+    dependencies:
+      loose-envify: 1.4.0
     dev: false
     engines:
       node: '>=0.10.0'
     resolution:
-      integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==
-  /reactjs-popup/2.0.6_react-dom@19.0.0+react@19.0.0:
+      integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==
+  /reactjs-popup/2.0.6_react-dom@18.3.1+react@18.3.1:
     dependencies:
-      react: 19.0.0
-      react-dom: 19.0.0_react@19.0.0
+      react: 18.3.1
+      react-dom: 18.3.1_react@18.3.1
     dev: false
     engines:
       node: '>=10'
@@ -10406,10 +10409,12 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==
-  /scheduler/0.25.0:
+  /scheduler/0.23.2:
+    dependencies:
+      loose-envify: 1.4.0
     dev: false
     resolution:
-      integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==
+      integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==
   /schema-utils/2.7.0:
     dependencies:
       '@types/json-schema': 7.0.15
@@ -11432,21 +11437,21 @@ packages:
       node: '>= 0.4'
     resolution:
       integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==
-  /uncontrollable/7.2.1_react@19.0.0:
+  /uncontrollable/7.2.1_react@18.3.1:
     dependencies:
       '@babel/runtime': 7.26.0
       '@types/react': 19.0.7
       invariant: 2.2.4
-      react: 19.0.0
+      react: 18.3.1
       react-lifecycles-compat: 3.0.4
     dev: false
     peerDependencies:
       react: '>=15.0.0'
     resolution:
       integrity: sha512-svtcfoTADIB0nT9nltgjujTi7BzVmwjZClOmskKu/E8FW9BXzg9os8OLr4f8Dlnk0rYWJIWr4wv9eKUXiQvQwQ==
-  /uncontrollable/8.0.4_react@19.0.0:
+  /uncontrollable/8.0.4_react@18.3.1:
     dependencies:
-      react: 19.0.0
+      react: 18.3.1
     dev: false
     peerDependencies:
       react: '>=16.14.0'
@@ -12211,9 +12216,9 @@ specifiers:
   flowbite: ^3.0.0
   flowbite-react: ^0.10.2
   postcss: ^8.5.1
-  react: ^19.0.0
+  react: '18'
   react-bootstrap: ^2.10.8
-  react-dom: ^19.0.0
+  react-dom: '18'
   react-icons: ^5.4.0
   react-marquee-line: ^1.0.1
   react-responsive-carousel: ^3.2.23
