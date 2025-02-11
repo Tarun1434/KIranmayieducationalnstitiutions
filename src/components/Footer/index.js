@@ -138,7 +138,7 @@ function Footer() {
         <p className='footer_para'>
           Copyright © Kiranmayi Degree College 2021. All Rights Reserved |
           Designed by{' '}
-          <a href='https://tarunportfolios.ccbp.tech/'> Tarun Potnuru</a>
+          <a href='https://mywall.me/tarunpotnuru'> Tarun Potnuru</a>
         </p>
       </div>
     </footer>
