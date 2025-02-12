@@ -18,8 +18,9 @@
 .navbar-brand:active {
   text-decoration: none !important;
 }
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
 .college_name {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: "Gabarito", serif;
   font-size: 35px;
   letter-spacing: 0.4em;
   color: coral;
@@ -28,17 +29,19 @@
 }
 
 .college_educationaL {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-family: "Gabarito", serif;
   font-size: 20px;
   letter-spacing: 1.2px;
   color: coral;
   line-height: 0.5;
+  font-weight: 500;
 }
 
 .collge_name_I_D {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-family: "Gabarito", serif;
   color: white;
   line-height: 0.5;
+  font-size: 17px;
 }
 
 .names_of_college {
@@ -155,7 +158,7 @@ button[type='button']:hover {
   }
 
   .college_name {
-    font-size: 24px; /* Reduce size for smaller screens */
+    font-size: 26px; /* Reduce size for smaller screens */
     letter-spacing: 0.3em;
     font-weight: 800;
     color: coral;

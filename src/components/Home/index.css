@@ -190,7 +190,7 @@
 
   .missionparagraph {
     font-size: 12px;
-    font-family: "Roboto";
+    font-family: 'Roboto';
   }
 
   .sec {
@@ -334,7 +334,7 @@
 
   .missionparagraph {
     font-size: 0.9rem !important;
-    font-family: "Roboto";
+    font-family: 'Roboto';
   }
 }
 
@@ -356,16 +356,17 @@
   text-align: center;
   background-color: #bca89f;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
 .acdamics_heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
   color: Brown;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Notable', serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 .acdamics_caption {
   color: rgb(195, 59, 17);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Love Ya Like A Sister', serif;
   font-weight: bold;
 }
 .acdmics_container {
@@ -408,8 +409,9 @@
   object-fit: cover;
   border-radius: 10px;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
 .text_upon_the_image {
+  font-family: 'Prosto One', serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -427,6 +429,8 @@
 }
 
 .text_after_the_hover {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   position: absolute;
   bottom: 10%;
   left: 50%;
@@ -527,13 +531,13 @@
 }
 
 .heading_gallery {
-  font-size: 2rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-size: 2.5rem;
+ font-family: 'Arbutus', serif;
+ color: #5636a7;
 }
 .heading_caption {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 600;
+ font-family: 'Rowdies', serif;
+  
 }
 
 /* Infinite Scrolling Animation */

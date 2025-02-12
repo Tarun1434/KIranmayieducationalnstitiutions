@@ -146,7 +146,7 @@ function Home() {
                 </p>
               </div>
               <div className='sec'>
-                <h1 className='missionheading'>Mission</h1>
+                <h1 className='missionheading'>Core Values</h1>
                 <ul className='missionparagraph'>
                   <li>Imparting value-based education.</li>
                   <li>

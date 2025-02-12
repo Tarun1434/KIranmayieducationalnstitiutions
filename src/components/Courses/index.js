@@ -74,7 +74,7 @@ function CourseOffered() {
       <Header />
       <Marqueetag />
       <div className='courses_offered d-flex flex-column justify-content-center align-items-center'>
-       <h1 className="Courses">Courses</h1>
+        <h1 className='Courses'>Courses</h1>
         <div className='for_intermediate'>
           <h1 className='InterMeduiate'>Intermediate</h1>
           <div className='card_ss d-flex flex-column flex-md-row'>
