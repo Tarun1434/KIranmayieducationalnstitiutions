@@ -15,12 +15,12 @@ import Contact from './components/Contact'
 
 // WhatsApp Icon onClick
 const openWhatsApp = () => {
-  window.open('https://wa.me/1234567890', '_blank') // Replace with your WhatsApp number
+  window.open('https://wa.me/8712126284', '_blank') // Replace with your WhatsApp number
 }
 
 // Phone Icon onClick
 const makeCall = () => {
-  window.location.href = 'tel:+1234567890' // Replace with your phone number
+  window.location.href = 'tel:+8712126284' // Replace with your phone number
 }
 
 function App() {
