@@ -95,26 +95,32 @@ function CourseOffered() {
           </div>
         </div>
 
+        <div className='container text-center mt-4'>
+          <hr id='five' />
+        </div>
+
         <div className='for_Degree d-flex flex-column justify-content-center align-items-center'>
-          <h1 className='InterMeduiate'>Degree</h1>
-          <div className='card_ss d-flex flex-column flex-md-row'>
-            {course_details.degree.map(cards => (
-              <div className='card' key={cards.id}>
-                <NavLink to={`/departments#degree-${cards.id}`}>
-                  <img
-                    src={cards.card_image}
-                    className='card-img-top'
-                    alt='...'
-                  />
-                  <div className='card_body text-black text-center'>
-                    <p className='card-text'>{cards.card_text}</p>
-                    {cards.sub_text && (
-                      <span className='card-text'>{cards.sub_text}</span>
-                    )}
-                  </div>
-                </NavLink>
-              </div>
-            ))}
+          <div className='for_intermediate'>
+            <h1 className='InterMeduiate'>Degree</h1>
+            <div className='card_ss d-flex flex-column flex-md-row'>
+              {course_details.degree.map(cards => (
+                <div className='card' key={cards.id}>
+                  <NavLink to={`/departments#degree-${cards.id}`}>
+                    <img
+                      src={cards.card_image}
+                      className='card-img-top'
+                      alt='...'
+                    />
+                    <div className='card_body text-black text-center'>
+                      <p className='card-text'>{cards.card_text}</p>
+                      {cards.sub_text && (
+                        <span className='card-text'>{cards.sub_text}</span>
+                      )}
+                    </div>
+                  </NavLink>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

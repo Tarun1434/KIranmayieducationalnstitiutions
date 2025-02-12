@@ -79,9 +79,6 @@ function Departments() {
             </div>
           </div>
         </div>
-        <div className='container text-center mt-4'>
-          <hr id='five' />
-        </div>
       </div>
 
       <Footer />

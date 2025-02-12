@@ -3,14 +3,62 @@
   padding: 50px 20px; /* Light gray background */
 }
 
+.for_intermediate,
 .for_Degree {
   width: 100%;
   max-width: 1200px;
   margin-bottom: 40px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Bungee+Spice&family=Righteous&display=swap');
+.InterMeduiate {
+  font-family: 'Arbutus', serif;
+  font-weight: bold;
+  padding: 15px;
+  color: #5636a7;
+  text-align: center;
+}
 
+.card_ss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  background-color: white;
+  max-width: 320px;
+  min-width: 260px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  text-decoration: none !important;
+}
+
+.card-img-top {
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card_body {
+  background-color: coral;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Bungee+Spice&family=Righteous&display=swap');
+/* Infrastructure & Additional Sections */
 .heading_infra {
   font-size: 50px;
   font-weight: 800;
@@ -69,11 +117,13 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+/* Carousel Images */
 .carousel-item img {
   height: 100vh;
   object-fit: cover;
 }
 
+/* Mission & Vision */
 .mission_vison {
   align-items: center;
   margin: 50px 0px 50px 0px;
@@ -93,11 +143,9 @@
 .sec {
   width: 35vw;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
-
 .heading_vison {
   margin: 20px;
   margin-bottom: 50px;
@@ -106,15 +154,14 @@
   color: #5636a7;
   font-family: 'Arbutus', serif;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
-
 .missionheading {
   font-size: 20px;
   color: #5636a7;
   font-family: 'Rowdies', serif;
 }
 
+/* Responsive Design */
 @media (max-width: 1024px) {
   .card {
     flex: 1 1 250px;
@@ -123,6 +170,20 @@
 }
 
 @media (max-width: 768px) {
+  .card_ss {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    flex: 1 1 auto;
+    width: 90%;
+  }
+
+  .card-img-top {
+    height: 330px;
+  }
+
   .carousel-item img {
     height: 300px;
   }
@@ -170,28 +231,43 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
   }
+
+  .card-img-top {
+    height: 250px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
+  .InterMeduiate {
+    font-size: 20px;
+  }
+
   .card {
     width: 95%;
+  }
+
+  .card-img-top {
+    height: 200px;
   }
 
   .card-text {
     font-size: 16px;
   }
 }
-
+/* Add these CSS fixes */
 .backgroundimage {
   width: 100%;
   overflow-x: hidden;
 }
 
+/* Fix mission/vision section */
 .mission_vison {
   background-color: #fef5c1;
   padding: 2rem 1rem;
 }
 
+/* Mobile-first media queries */
 @media (max-width: 768px) {
   .row.g-4 {
     margin-left: 0;
@@ -235,6 +311,15 @@
 }
 
 @media (max-width: 576px) {
+  .card_ss {
+    width: 100%;
+  }
+
+  .card {
+    width: 95% !important;
+    margin: 10px auto;
+  }
+
   .carosel_head {
     font-size: 1.5rem !important;
   }
@@ -253,6 +338,7 @@
   }
 }
 
+/* Add to existing CSS */
 .carousel-item img {
   object-position: center;
 }
@@ -269,4 +355,223 @@
   padding: 20px;
   text-align: center;
   background-color: #bca89f;
+}
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+.acdamics_heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: Brown;
+  font-family: 'Notable', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+.acdamics_caption {
+  color: rgb(195, 59, 17);
+  font-family: 'Love Ya Like A Sister', serif;
+  font-weight: bold;
+}
+.acdmics_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.acdmics_image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 520px;
+  height: 330px;
+  margin: 15px auto;
+  transition:
+    transform 0.3s,
+    filter 0.3s;
+  overflow: hidden;
+}
+
+.acdmics_image::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  transition: background 0.3s;
+}
+
+.acdmics_image:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Darker overlay on hover */
+}
+
+.acdmics_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+.text_upon_the_image {
+  font-family: 'Prosto One', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  transition: filter 0.3s;
+}
+
+.acdmics_image:hover .text_upon_the_image {
+  filter: brightness(150%); /* Brighten text on hover */
+}
+
+.text_after_the_hover {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-size: 28px;
+  text-decoration: underline;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.acdmics_image:hover .text_after_the_hover {
+  opacity: 1;
+}
+
+.origin_button {
+  background-color: white;
+  border-radius: 18px;
+  border: solid 2px darkred;
+  color: darkred;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 17px;
+  font-size: 1rem;
+}
+
+/* Medium devices - Two in a row */
+@media (max-width: 992px) {
+  .acdmics_image {
+    width: calc(50% - 30px);
+  }
+}
+
+/* Small devices - One in a row */
+@media (max-width: 576px) {
+  .acdmics_image {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .acdamics_heading {
+    font-size: 1.5rem;
+  }
+
+  .text_upon_the_image {
+    font-size: 1.2rem;
+  }
+
+  .text_after_the_hover {
+    font-size: 0.9rem;
+  }
+}
+
+/* Background Styling */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    hsl(200, 48%, 80%),
+    #cbe0e0
+  ); /* Gradient background */
+  padding: 20px 0;
+  position: relative;
+}
+
+/* Marquee Scrolling Effect */
+.marquee {
+  display: flex;
+  gap: 15px; /* Space between images */
+  width: 200%;
+  animation: marquee-scroll 12s linear infinite; /* Continuous scrolling */
+}
+
+/* Individual Image Container */
+.marquee-item {
+  flex: 0 0 auto;
+  width: 250px; /* Uniform width */
+  height: 300px; /* Uniform height */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Image Styling */
+.marquee-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Pause Animation on Hover */
+.marquee-container:hover .marquee {
+  animation-play-state: paused;
+}
+
+.heading_gallery {
+  font-size: 2.5rem;
+  font-family: 'Arbutus', serif;
+  color: #5636a7;
+}
+.heading_caption {
+  font-family: 'Rowdies', serif;
+}
+
+/* Infinite Scrolling Animation */
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .marquee-item {
+    width: 180px;
+    height: 120px;
+  }
+  .heading_gallery {
+    font-size: 1.5rem;
+  }
+  .heading_caption {
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 480px) {
+  .marquee-item {
+    width: 200px;
+    height: 250px;
+  }
+  .heading_gallery {
+    font-size: 1.2rem;
+  }
+  .heading_caption {
+    font-weight: 600;
+  }
 }
