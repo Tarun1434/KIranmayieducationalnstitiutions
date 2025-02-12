@@ -57,12 +57,13 @@
   font-size: 18px;
   color: black;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Bungee+Spice&family=Righteous&display=swap');
 /* Infrastructure & Additional Sections */
 .heading_infra {
   font-size: 50px;
   font-weight: 800;
   color: white;
+  font-family: 'Righteous', 'Asap', 'Roboto', serif;
 }
 
 .img_carosuel {
@@ -142,18 +143,22 @@
 .sec {
   width: 35vw;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
 .heading_vison {
   margin: 20px;
   margin-bottom: 50px;
+  font-weight: 400;
+  font-style: normal;
   color: #5636a7;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Arbutus', serif;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
 .missionheading {
   font-size: 20px;
   color: #5636a7;
+  font-family: 'Rowdies', serif;
 }
 
 /* Responsive Design */
@@ -185,6 +190,7 @@
 
   .missionparagraph {
     font-size: 12px;
+    font-family: "Roboto";
   }
 
   .sec {
@@ -328,6 +334,7 @@
 
   .missionparagraph {
     font-size: 0.9rem !important;
+    font-family: "Roboto";
   }
 }
 
@@ -546,12 +553,11 @@
     height: 120px;
   }
   .heading_gallery {
-  font-size: 1.5rem;
-}
-.heading_caption {
-  font-weight: 600;
-}
-
+    font-size: 1.5rem;
+  }
+  .heading_caption {
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 480px) {
@@ -561,10 +567,8 @@
   }
   .heading_gallery {
     font-size: 1.2rem;
-
-}
-.heading_caption {
-  font-weight: 600;
-}
-
+  }
+  .heading_caption {
+    font-weight: 600;
+  }
 }

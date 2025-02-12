@@ -217,11 +217,11 @@ function Home() {
               <NavLink to='/about'>Read more....</NavLink>
             </p>
 
-          <NavLink to="/about"> 
-            <div className='button'>
-              <button className='origin_button'>Explore More</button>
-            </div>
-          </NavLink>
+            <NavLink to='/about'>
+              <div className='button'>
+                <button className='origin_button'>Explore More</button>
+              </div>
+            </NavLink>
           </div>
         </div>
         {/*Gallery */}

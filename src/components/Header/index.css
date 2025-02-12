@@ -69,6 +69,7 @@ header {
 .nav-link {
   margin: 0 4px;
   color: #f8f9fa;
+  font-family: 'Poppins', serif;
 }
 
 .nav-link:hover {
@@ -90,7 +91,7 @@ header {
   background-color: #ffc107;
   border: none;
   font-size: 0.9rem;
-  margin-left: 20px ;
+  margin-left: 20px;
 }
 
 .btn-primary:hover {
