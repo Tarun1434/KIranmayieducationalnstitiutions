@@ -62,6 +62,7 @@ const ReactPopUp = ({closePopup}) => {
         width: '90%',
         maxHeight: '100vh', 
         overflowY: 'auto', 
+        zIndex: 1001,
         padding: '20px',
         background: '#FDFDD2',
         borderRadius: '8px',
@@ -69,6 +70,7 @@ const ReactPopUp = ({closePopup}) => {
       }}
       overlayStyle={{
         background: 'rgba(0, 0, 0, 0.5)',
+        zIndex: 1000,
       }}
     >
       <div className='formm'>
