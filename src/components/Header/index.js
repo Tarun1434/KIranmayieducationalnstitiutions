@@ -22,7 +22,7 @@ function NewHeader() {
         <div className='container'>
           <Link to='/' className='navbar-brand'>
             <img
-              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1736254571/college_logo_hvfvpd.png'
+              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1749702581/Educational_logo-1_aakwkj.ai'
               height='60'
               alt='LOGO'
               className='d-inline-block align-text-top me-2'
