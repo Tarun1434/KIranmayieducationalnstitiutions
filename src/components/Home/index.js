@@ -43,7 +43,7 @@ function Home() {
                 <Carousel.Item>
                   <img
                     className='d-block w-100 animate__flipInY img_carosuel'
-                    src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737631715/kira2_w9kupm.jpg'
+                    src='https://res.cloudinary.com/dsnjnciud/image/upload/v1749957039/IMG_20250615_083952_w4r3a3.jpg'
                     alt='Slide 1'
                   />
                 </Carousel.Item>
@@ -57,7 +57,7 @@ function Home() {
                 <Carousel.Item>
                   <img
                     className='d-block w-100 animate__fadeIn img_carosuel'
-                    src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737631913/Boost-Your-Career-with-a-Bachelors-Degree.FNU_-scaled-1.jpg_uh4cxw.webp'
+                    src='https://res.cloudinary.com/dsnjnciud/image/upload/v1750068774/WhatsApp_Image_2025-06-16_at_3.42.08_PM_ano1ul.jpg'
                     alt='Slide 3'
                   />
                 </Carousel.Item>

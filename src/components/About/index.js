@@ -26,7 +26,7 @@ function About() {
             </div>
             <img
               className='d-block aboutclg'
-              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1737631716/kinamyi_image_clvgdt.jpg'
+              src='https://res.cloudinary.com/dsnjnciud/image/upload/v1750068774/WhatsApp_Image_2025-06-16_at_3.42.08_PM_ano1ul.jpg'
               alt='about college'
             />
           </div>
